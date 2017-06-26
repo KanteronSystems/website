@@ -473,6 +473,24 @@ h6,
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#header3-f .mbr-section-title,
+#header3-f .mbr-section-subtitle {
+  text-align: center;
+}
+#features7-e .card-subtitle {
+  color: #bcbcbc;
+}
+#features7-e .iconbox {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+#features6-o P {
+  text-align: center;
+}
+#social-buttons4-h .mbr-section-title,
+#social-buttons4-h .btn-social {
+  color: #fff;
+}
 #features4-5 .card-subtitle {
   color: #bcbcbc;
 }
@@ -486,4 +504,7 @@ h6,
 #social-buttons4-a .mbr-section-title,
 #social-buttons4-a .btn-social {
   color: #fff;
+}
+#form1-j .form-control-label {
+  color: #232323;
 }
