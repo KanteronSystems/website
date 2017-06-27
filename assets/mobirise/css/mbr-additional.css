@@ -473,10 +473,6 @@ h6,
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#header3-f .mbr-section-title,
-#header3-f .mbr-section-subtitle {
-  text-align: center;
-}
 #features7-e .card-subtitle {
   color: #bcbcbc;
 }
@@ -636,19 +632,37 @@ h6,
 #menu-z .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#features7-12 .card-subtitle {
-  color: #bcbcbc;
-}
-#features7-12 .iconbox {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
 #header3-11 .mbr-section-title,
 #header3-11 .mbr-section-subtitle {
   text-align: center;
 }
 #features6-15 P {
   text-align: center;
+}
+#header3-5b .mbr-section-title,
+#header3-5b .mbr-section-subtitle {
+  text-align: center;
+}
+#features4-58 .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-58 .iconbox {
+  background-color: #ff8d00;
+  border-color: #ff8d00;
+}
+#features4-59 .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-59 .iconbox {
+  background-color: #ff8d00;
+  border-color: #ff8d00;
+}
+#features4-5a .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-5a .iconbox {
+  background-color: #ff8d00;
+  border-color: #ff8d00;
 }
 #social-buttons4-16 .mbr-section-title,
 #social-buttons4-16 .btn-social {
@@ -1370,6 +1384,10 @@ h6,
 #form1-3p .form-control-label {
   color: #232323;
 }
+#header3-3t .mbr-section-title,
+#header3-3t .mbr-section-subtitle {
+  text-align: center;
+}
 #menu-3r .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1439,16 +1457,16 @@ h6,
   background-color: #ffffff;
   border-color: #ffffff;
 }
-#header3-3t .mbr-section-title,
-#header3-3t .mbr-section-subtitle {
-  text-align: center;
-}
 #social-buttons4-3y .mbr-section-title,
 #social-buttons4-3y .btn-social {
   color: #fff;
 }
 #form1-3z .form-control-label {
   color: #232323;
+}
+#header3-43 .mbr-section-title,
+#header3-43 .mbr-section-subtitle {
+  text-align: center;
 }
 #menu-41 .hide-buttons .nav-btn {
   display: none !important;
@@ -1519,14 +1537,90 @@ h6,
   background-color: #ffffff;
   border-color: #ffffff;
 }
-#header3-43 .mbr-section-title,
-#header3-43 .mbr-section-subtitle {
-  text-align: center;
-}
 #social-buttons4-48 .mbr-section-title,
 #social-buttons4-48 .btn-social {
   color: #fff;
 }
 #form1-49 .form-control-label {
+  color: #232323;
+}
+#header3-4x .mbr-section-title,
+#header3-4x .mbr-section-subtitle {
+  text-align: center;
+}
+#menu-4y .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-4y .navbar-caption {
+  color: #ffffff;
+  font-size: 16px;
+}
+#menu-4y .navbar-toggler {
+  color: #ffffff;
+}
+#menu-4y .close-icon::before,
+#menu-4y .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-4y .link,
+#menu-4y .dropdown-item {
+  color: #ffffff;
+}
+#menu-4y .link {
+  font-size: 0.75rem;
+}
+#menu-4y .dropdown-item,
+#menu-4y .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-4y .link:hover,
+#menu-4y .dropdown-item:hover,
+#menu-4y .link:focus,
+#menu-4y .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-4y .link[aria-expanded="true"],
+#menu-4y .dropdown-menu {
+  background: #cc7100;
+}
+#menu-4y .nav-dropdown-sm .link:focus,
+#menu-4y .nav-dropdown-sm .link:hover,
+#menu-4y .nav-dropdown-sm .dropdown-item:focus,
+#menu-4y .nav-dropdown-sm .dropdown-item:hover {
+  background: #f08500!important;
+}
+#menu-4y .navbar,
+#menu-4y .nav-dropdown-sm,
+#menu-4y .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-4y .nav-dropdown-sm .dropdown-menu {
+  background: #ff8d00;
+}
+#menu-4y .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-4y .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-4y .bg-color.transparent.opened .link:hover,
+#menu-4y .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-4y .link[aria-expanded="true"],
+#menu-4y .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#features7-4z .card-subtitle {
+  color: #bcbcbc;
+}
+#features7-4z .iconbox {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+#social-buttons4-52 .mbr-section-title,
+#social-buttons4-52 .btn-social {
+  color: #fff;
+}
+#form1-53 .form-control-label {
   color: #232323;
 }
