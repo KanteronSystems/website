@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "refsites.html",
+    "currentPage": "othermodules.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -322,9 +322,10 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title3": "ANALYZE",
@@ -338,9 +339,10 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "VISUALIZE",
@@ -977,9 +979,10 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title3": "ANALYZE",
@@ -993,9 +996,10 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "VISUALIZE",
@@ -4014,8 +4018,8 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text1": "<h3><b>EUROPE:</b></h3><p><br></p><p><b>PORTUGAL – LISBOA</b>: SoftInsa</p><p>Avenida Natália Correia, nº 4 Fracção D 4-A, Ponta Delgada 9500-341 (Portugal)</p><p>Edifício Office Oriente | Rua do Mar da China | L. 1.07.2.3 – A6</p><p>Parque das Nações | 1990-138 Lisboa</p><p><br></p><p><b>SPAIN – HEADQUARTERS: KANTERON SYSTEMS S.L.U.</b></p><p>Mail: P.O. Box 123, Puçol 46530 (Valencia)</p><p>Location: Calle Espartar 15, Urb. Monasterios – Puçol 46500 Sagunto – Valencia</p><p>Tel: (+34) 963312287</p><p><br></p><p>Madrid office:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p><p><br></p><p><b>UK UNITED KINGDOM – <br>LONDON: KANTERON SYSTEMS UK, LTD.</b></p><p>TechHub @ Google Campus</p><p>4-5 Bonhill Street</p><p>London EC2A 4BX</p><p>Tel: (+44) 07736-881820</p>",
-          "text2": "<h3><b>LATAM</b>:</h3><p><br></p><p><b>CHILE – SANTIAGO</b>: NexoMed S.p.A.</p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>:</p><p>colombia@kanteron.com</p><p>Av Calle 19 No. 4-71 Ofc 231 Ctro Bta., Bogota&nbsp;</p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>MEXICO – MEXICO DC</b>: Ceurac SA de CV</p><p>Av. Oaxaca 81, Col. Roma 06700 México DF</p><p>Tel: (+52) 55 55257562</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: Comtel</p><p>Vicepresidente Sánchez 731 c/ Herrera, Asunción</p><p>SAC: +595 21 248 7000</p><p>Cell: +595 981 205 210</p><p>Fax: +595 21 248 7220</p><p><br></p><p><b>PERU – LIMA</b>: Soluzioni International</p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
+          "text1": "<h3><b>EUROPE:</b></h3><p><br></p><p><b>PORTUGAL – LISBOA</b>: <a href=\"http://www.softinsa.pt/\" target=\"_blank\">SoftInsa</a></p><p>Avenida Natália Correia, nº 4 Fracção D 4-A, Ponta Delgada 9500-341 (Portugal)</p><p>Edifício Office Oriente | Rua do Mar da China | L. 1.07.2.3 – A6</p><p>Parque das Nações | 1990-138 Lisboa</p><p><br></p><p><b>SPAIN – HEADQUARTERS: KANTERON SYSTEMS S.L.U.</b></p><p>Mail: P.O. Box 123, Puçol 46530 (Valencia)</p><p>Location: Calle Espartar 15, Urb. Monasterios – Puçol 46500 Sagunto – Valencia</p><p>Tel: (+34) 963312287</p><p><br></p><p>Madrid office:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p><p><br></p><p><b>UK UNITED KINGDOM – <br>LONDON: KANTERON SYSTEMS UK, LTD.</b></p><p>TechHub @ Google Campus</p><p>4-5 Bonhill Street</p><p>London EC2A 4BX</p><p>Tel: (+44) 07736-881820</p>",
+          "text2": "<h3><b>LATAM</b>:</h3><p><br></p><p><b>CHILE – SANTIAGO</b>: <a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>:</p><p>colombia@kanteron.com</p><p>Av Calle 19 No. 4-71 Ofc 231 Ctro Bta., Bogota&nbsp;</p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>MEXICO – MEXICO DC</b>: <a href=\"http://ceurac.com/\" target=\"_blank\">Ceurac SA de CV</a></p><p>Av. Oaxaca 81, Col. Roma 06700 México DF</p><p>Tel: (+52) 55 55257562</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asunción</p><p>SAC: +595 21 248 7000</p><p>Cell: +595 981 205 210</p><p>Fax: +595 21 248 7220</p><p><br></p><p><b>PERU – LIMA</b>: <a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
           "text3": "<h3><b>NORTHAMERICA:</b></h3><p><br></p><p><b>USA – NEW YORK: KANTERON SYSTEMS USA, INC.</b></p><p>447 Broadway, 2nd Floor, New York</p><p>NY 10013-2562</p><p>Tel: (+1) 773-358-2292</p><p><br></p><p>Mailing address:</p><p>1005 W. McKay Rd.</p><p>Shelbyville, IN 46176</p>"
         },
         {
@@ -4339,9 +4343,10 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title3": "ANALYZE",
@@ -4355,9 +4360,10 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "VISUALIZE",
@@ -4729,9 +4735,10 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title3": "ANALYZE",
@@ -4745,9 +4752,10 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "VISUALIZE",
@@ -5119,9 +5127,10 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title3": "ANALYZE",
@@ -5135,9 +5144,10 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "VISUALIZE",
@@ -5509,9 +5519,10 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title3": "ANALYZE",
@@ -5525,9 +5536,10 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "VISUALIZE",
@@ -5899,9 +5911,10 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title3": "ANALYZE",
@@ -5915,9 +5928,10 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
-              "color": "#000000"
+              "color": "#000000",
+              "newWindow": false
             }
           },
           "title4": "VISUALIZE",
