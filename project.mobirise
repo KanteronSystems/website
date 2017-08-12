@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "awardsandmedia.html",
+    "currentPage": "cases.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -26,7 +26,7 @@
     "globalfooter": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 239,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.1.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
@@ -100,17 +100,17 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -138,8 +138,11 @@
           "_name": "slider",
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -184,10 +187,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-2",
           "articleLayout": false
@@ -200,25 +200,25 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-5h",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "60",
             "paddingTop": "0",
             "paddingBottom": "0",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -259,27 +259,27 @@
           "_name": "features7",
           "_anchor": "features7-e",
           "_params": {
-            "iconsBgColor": "#ffffff",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -387,26 +387,26 @@
           "_name": "features3",
           "_anchor": "features3-n",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -622,22 +622,22 @@
           ],
           "_anchor": "testimonials1-i",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": "6",
+            "showTitle": true,
+            "showSubtitle": true,
             "showImages": true,
             "showName": true,
             "showBio": true,
+            "count": "6",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
+            "overlayOpacity": 0.5
           },
           "title": "SOME TESTIMONIALS",
           "subtitle": "Many more testimonials <a href=\"testimonials.html\">HERE</a>."
@@ -655,26 +655,26 @@
           },
           "_anchor": "features6-o",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -786,13 +786,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -809,19 +809,19 @@
           },
           "_anchor": "form1-j",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -865,7 +865,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -891,10 +891,10 @@
           "_name": "header3",
           "_anchor": "header3-r",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "KANTERON PLATFORM",
           "meta": "By John Smith posted July 20, 2016"
@@ -916,27 +916,27 @@
           "_name": "features7",
           "_anchor": "features7-s",
           "_params": {
-            "iconsBgColor": "#ffffff",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -1093,17 +1093,17 @@
           "_name": "menu",
           "_anchor": "menu-41",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1131,26 +1131,26 @@
           "_name": "features3",
           "_anchor": "features3-t",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -1316,13 +1316,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -1339,19 +1339,19 @@
           },
           "_anchor": "form1-x",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -1395,7 +1395,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -1465,17 +1465,17 @@
           "_name": "menu",
           "_anchor": "menu-z",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1508,10 +1508,10 @@
           "_name": "header3",
           "_anchor": "header3-11",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "ABOUT KANTERON SYSTEMS",
           "meta": "By John Smith posted July 20, 2016"
@@ -1523,24 +1523,24 @@
           "_name": "header2",
           "_anchor": "header2-5g",
           "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/tumorboards-2000x709.png",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tumorboards-2000x709.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
           },
           "media": {
             "image": {
@@ -1581,26 +1581,26 @@
           },
           "_anchor": "features6-15",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -1648,7 +1648,7 @@
           },
           "title3": "ABOUT KANTERON SYSTEMS",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Kanteron Systems is a privately held Healthcare IT – Biomedical Informatics company founded in 2005 that helps healthcare providers manage imaging and genomic data effectively for precision medicine applications at the point of care.<br><br>With offices and subsidiaries in New York (USA), London (UK), Madrid (Spain), and European HQ in Valencia (Spain), Kanteron Systems' solution has already been deployed over 500 times in 12 countries, at some of the world's largest healthcare networks like the American College of Radiology in the USA, the NHS in the UK, Seguridad Social in Spain, ISSSTE in Mexico, or EsSalud in Peru.<br>",
+          "caption3": "Kanteron Systems is a privately held Healthcare IT – Biomedical Informatics company founded in 2005 that helps healthcare providers manage imaging and genomic data effectively for precision medicine applications at the point of care.<br><br>With offices and subsidiaries in London (UK), Madrid (Spain), and European HQ in Valencia (Spain), Kanteron Systems' solution has already been deployed over 500 times in 12 countries, at some of the world's largest healthcare networks like the American College of Radiology in the USA, the NHS in the UK, Seguridad Social in Spain, ISSSTE in Mexico, or EsSalud in Peru.<br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -1718,10 +1718,10 @@
           "_name": "header3",
           "_anchor": "header3-5b",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "Kanteron Values",
           "meta": "By John Smith posted July 20, 2016"
@@ -1742,27 +1742,27 @@
           "_name": "features4",
           "_anchor": "features4-58",
           "_params": {
-            "iconsBgColor": "#ff8d00",
-            "paddingTop": 2,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ff8d00",
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -1877,27 +1877,27 @@
           "_name": "features4",
           "_anchor": "features4-59",
           "_params": {
-            "iconsBgColor": "#ff8d00",
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ff8d00",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -2012,27 +2012,27 @@
           "_name": "features4",
           "_anchor": "features4-5a",
           "_params": {
-            "iconsBgColor": "#ff8d00",
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ff8d00",
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -2146,13 +2146,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -2169,19 +2169,19 @@
           },
           "_anchor": "form1-17",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -2225,7 +2225,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -2295,17 +2295,17 @@
           "_name": "menu",
           "_anchor": "menu-23",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2338,10 +2338,10 @@
           "_name": "header3",
           "_anchor": "header3-25",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "TEAM",
           "meta": "By John Smith posted July 20, 2016"
@@ -2353,26 +2353,26 @@
           "_name": "features3",
           "_anchor": "features3-27",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -2478,26 +2478,26 @@
           "_name": "features3",
           "_anchor": "features3-4k",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -2591,26 +2591,26 @@
           "_name": "features3",
           "_anchor": "features3-4l",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -2709,10 +2709,10 @@
           "_name": "header3",
           "_anchor": "header3-4j",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "BOARD OF ADVISORS",
           "meta": "By John Smith posted July 20, 2016"
@@ -2724,26 +2724,26 @@
           "_name": "features3",
           "_anchor": "features3-4i",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -2846,13 +2846,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -2869,19 +2869,19 @@
           },
           "_anchor": "form1-2b",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -2925,7 +2925,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -2951,10 +2951,10 @@
           "_name": "header3",
           "_anchor": "header3-2f",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "PARTNERS",
           "meta": "By John Smith posted July 20, 2016"
@@ -3015,17 +3015,17 @@
           "_name": "menu",
           "_anchor": "menu-2d",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -3066,26 +3066,26 @@
           "_name": "features3",
           "_anchor": "features3-2h",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -3247,22 +3247,22 @@
           ],
           "_anchor": "testimonials1-2i",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": "3",
+            "showTitle": true,
+            "showSubtitle": true,
             "showImages": true,
             "showName": true,
             "showBio": true,
+            "count": "3",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
+            "overlayOpacity": 0.5
           },
           "title": "SOME PARTNER TESTIMONIALS",
           "subtitle": "Many more testimonials <a href=\"testimonials.html\">HERE</a>."
@@ -3279,10 +3279,10 @@
           "_name": "header3",
           "_anchor": "header3-5j",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "Quality",
           "meta": "By John Smith posted July 20, 2016"
@@ -3316,13 +3316,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -3339,19 +3339,19 @@
           },
           "_anchor": "form1-2l",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -3395,7 +3395,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -3465,17 +3465,17 @@
           "_name": "menu",
           "_anchor": "menu-2n",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -3508,10 +3508,10 @@
           "_name": "header3",
           "_anchor": "header3-2p",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "AWARDS &amp; MEDIA",
           "meta": "By John Smith posted July 20, 2016"
@@ -3523,26 +3523,26 @@
           "_name": "features3",
           "_anchor": "features3-2r",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -3758,22 +3758,22 @@
           ],
           "_anchor": "testimonials1-2s",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 3,
-            "count": "6",
+            "showTitle": true,
+            "showSubtitle": true,
             "showImages": true,
             "showName": true,
             "showBio": true,
+            "count": "6",
+            "paddingTop": "1",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
+            "overlayOpacity": 0.5
           },
           "title": "SOME MEDIA QUOTES",
           "subtitle": "Many more testimonials <a href=\"awardsandmedia.html\">HERE</a>."
@@ -3807,13 +3807,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -3830,19 +3830,19 @@
           },
           "_anchor": "form1-2v",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -3886,7 +3886,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -3956,17 +3956,17 @@
           "_name": "menu",
           "_anchor": "menu-2x",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -3999,10 +3999,10 @@
           "_name": "header3",
           "_anchor": "header3-2z",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "CONTACT",
           "meta": "By John Smith posted July 20, 2016"
@@ -4020,7 +4020,7 @@
           },
           "text1": "<h3><b>EUROPE:</b></h3><p><br></p><p><b>PORTUGAL – LISBOA</b>: <a href=\"http://www.softinsa.pt/\" target=\"_blank\">SoftInsa</a></p><p>Avenida Natália Correia, nº 4 Fracção D 4-A, Ponta Delgada 9500-341 (Portugal)</p><p>Edifício Office Oriente | Rua do Mar da China | L. 1.07.2.3 – A6</p><p>Parque das Nações | 1990-138 Lisboa</p><p><br></p><p><b>SPAIN – HEADQUARTERS: KANTERON SYSTEMS S.L.U.</b></p><p>Mail: P.O. Box 123, Puçol 46530 (Valencia)</p><p>Location: Calle Espartar 15, Urb. Monasterios – Puçol 46500 Sagunto – Valencia</p><p>Tel: (+34) 963312287</p><p><br></p><p>Madrid office:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p><p><br></p><p><b>UK UNITED KINGDOM – <br>LONDON: KANTERON SYSTEMS UK, LTD.</b></p><p>TechHub @ Google Campus</p><p>4-5 Bonhill Street</p><p>London EC2A 4BX</p><p>Tel: (+44) 07736-881820</p>",
           "text2": "<h3><b>LATAM</b>:</h3><p><br></p><p><b>CHILE – SANTIAGO</b>: <a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>:</p><p>colombia@kanteron.com</p><p>Av Calle 19 No. 4-71 Ofc 231 Ctro Bta., Bogota&nbsp;</p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>MEXICO – MEXICO DC</b>: <a href=\"http://ceurac.com/\" target=\"_blank\">Ceurac SA de CV</a></p><p>Av. Oaxaca 81, Col. Roma 06700 México DF</p><p>Tel: (+52) 55 55257562</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asunción</p><p>SAC: +595 21 248 7000</p><p>Cell: +595 981 205 210</p><p>Fax: +595 21 248 7220</p><p><br></p><p><b>PERU – LIMA</b>: <a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
-          "text3": "<h3><b>NORTHAMERICA:</b></h3><p><br></p><p><b>USA – NEW YORK: KANTERON SYSTEMS USA, INC.</b></p><p>447 Broadway, 2nd Floor, New York</p><p>NY 10013-2562</p><p>Tel: (+1) 773-358-2292</p><p><br></p><p>Mailing address:</p><p>1005 W. McKay Rd.</p><p>Shelbyville, IN 46176</p>"
+          "text3": "<h3><b>NORTHAMERICA:</b></h3><p><br></p><p><span style=\"font-size: 1.07rem;\"><b>USA – INDIANA:&nbsp;</b></span></p><p><span style=\"font-size: 1.07rem;\">1005 W. McKay Rd.</span></p><p><span style=\"font-size: 1.07rem;\">Shelbyville, IN 46176</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+1) 773-358-229276</span><br></p>"
         },
         {
           "alias": "htmlblock",
@@ -4032,16 +4032,16 @@
           "_params": {
             "blockTitle": "",
             "HTMLCode": "<style>\n    .google-maps {\n        position: relative;\n        padding-bottom: 75%; // This is the aspect ratio\n        height: 0;\n        overflow: hidden;\n    }\n    .google-maps iframe {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100% !important;\n        height: 100% !important;\n    }\n</style>\n\n<div class=\"google-maps\">\n    <iframe src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" width=\"640\" height=\"480\" frameborder=\"0\" style=\"border:0\"></iframe>\n</div>",
+            "extEdit": false,
             "paddingTop": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "extEdit": false
+            "overlayOpacity": 0.5
           },
           "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
           "blockTitle": "",
@@ -4063,13 +4063,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -4086,19 +4086,19 @@
           },
           "_anchor": "form1-5o",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -4142,7 +4142,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -4168,10 +4168,10 @@
           "_name": "header3",
           "_anchor": "header3-39",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "RADIOLOGY: PACS - RIS - VNA",
           "meta": "By John Smith posted July 20, 2016"
@@ -4232,17 +4232,17 @@
           "_name": "menu",
           "_anchor": "menu-37",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -4280,27 +4280,27 @@
           "_name": "features7",
           "_anchor": "features7-3a",
           "_params": {
-            "iconsBgColor": "#ffffff",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -4455,13 +4455,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -4478,19 +4478,19 @@
           },
           "_anchor": "form1-3f",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -4534,7 +4534,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -4560,10 +4560,10 @@
           "_name": "header3",
           "_anchor": "header3-3j",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "DIGITAL PATHOLOGY",
           "meta": "By John Smith posted July 20, 2016"
@@ -4624,17 +4624,17 @@
           "_name": "menu",
           "_anchor": "menu-3h",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -4672,27 +4672,27 @@
           "_name": "features7",
           "_anchor": "features7-3k",
           "_params": {
-            "iconsBgColor": "#ffffff",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -4847,13 +4847,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -4870,19 +4870,19 @@
           },
           "_anchor": "form1-3p",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -4926,7 +4926,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -4952,10 +4952,10 @@
           "_name": "header3",
           "_anchor": "header3-3t",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "CLINICAL GENOMICS",
           "meta": "By John Smith posted July 20, 2016"
@@ -5016,17 +5016,17 @@
           "_name": "menu",
           "_anchor": "menu-3r",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -5064,27 +5064,27 @@
           "_name": "features7",
           "_anchor": "features7-3u",
           "_params": {
-            "iconsBgColor": "#ffffff",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -5239,13 +5239,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -5262,19 +5262,19 @@
           },
           "_anchor": "form1-3z",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -5318,7 +5318,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -5344,10 +5344,10 @@
           "_name": "header3",
           "_anchor": "header3-43",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "PHARMACOGENOMICS",
           "meta": "By John Smith posted July 20, 2016"
@@ -5408,17 +5408,17 @@
           "_name": "menu",
           "_anchor": "menu-41",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -5456,27 +5456,27 @@
           "_name": "features7",
           "_anchor": "features7-44",
           "_params": {
-            "iconsBgColor": "#ffffff",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -5631,13 +5631,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -5654,19 +5654,19 @@
           },
           "_anchor": "form1-49",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -5710,7 +5710,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -5736,10 +5736,10 @@
           "_name": "header3",
           "_anchor": "header3-4x",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "OTHER MODULES",
           "meta": "By John Smith posted July 20, 2016"
@@ -5800,17 +5800,17 @@
           "_name": "menu",
           "_anchor": "menu-4y",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -5848,27 +5848,27 @@
           "_name": "features7",
           "_anchor": "features7-4z",
           "_params": {
-            "iconsBgColor": "#ffffff",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ff8d00",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ff8d00",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -5976,26 +5976,26 @@
           "_name": "features3",
           "_anchor": "features3-55",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -6111,13 +6111,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -6134,19 +6134,19 @@
           },
           "_anchor": "form1-53",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -6190,7 +6190,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -6260,17 +6260,17 @@
           "_name": "menu",
           "_anchor": "menu-19",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -6303,10 +6303,10 @@
           "_name": "header3",
           "_anchor": "header3-1b",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "SELECTED REFERENCE SITES",
           "meta": "By John Smith posted July 20, 2016"
@@ -6318,26 +6318,26 @@
           "_name": "features3",
           "_anchor": "features3-1d",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -6461,16 +6461,16 @@
           "_params": {
             "blockTitle": "",
             "HTMLCode": "<style>\n    .google-maps {\n        position: relative;\n        padding-bottom: 75%; // This is the aspect ratio\n        height: 0;\n        overflow: hidden;\n    }\n    .google-maps iframe {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100% !important;\n        height: 100% !important;\n    }\n</style>\n\n<div class=\"google-maps\">\n    <iframe src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" width=\"640\" height=\"480\" frameborder=\"0\" style=\"border:0\"></iframe>\n</div>",
+            "extEdit": false,
             "paddingTop": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "extEdit": false
+            "overlayOpacity": 0.5
           },
           "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
           "blockTitle": "",
@@ -6492,13 +6492,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -6515,19 +6515,19 @@
           },
           "_anchor": "form1-5s",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -6571,7 +6571,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -6641,17 +6641,17 @@
           "_name": "menu",
           "_anchor": "menu-5z",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -6684,10 +6684,10 @@
           "_name": "header3",
           "_anchor": "header3-65",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": "0",
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "SELECTED CASE STUDIES",
           "meta": "By John Smith posted&nbsp;"
@@ -6702,16 +6702,16 @@
           "_params": {
             "blockTitle": "",
             "HTMLCode": "<iframe id=\"bloxFrame\" src=\"http://static.issuu.com/widgets/shelf/index.html?folderId=640bf38c-8da2-4d23-aa3f-f5754b1df079&amp;theme=theme1&amp;rows=1&amp;thumbSize=medium&amp;roundedCorners=false&amp;showTitle=true&amp;showAuthor=true&amp;shadow=true&amp;effect3d=true\" name=\"bloxFrame\" width=\"100%\" height=\"200px\" frameborder=\"0\" scrolling=\"auto\">&lt;br /&gt;\n</iframe>",
+            "extEdit": false,
             "paddingTop": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "extEdit": false
+            "overlayOpacity": 0.5
           },
           "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
           "blockTitle": "",
@@ -6733,13 +6733,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -6756,19 +6756,19 @@
           },
           "_anchor": "form1-21",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -6812,7 +6812,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -6882,17 +6882,17 @@
           "_name": "menu",
           "_anchor": "menu-66",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -6925,10 +6925,10 @@
           "_name": "header3",
           "_anchor": "header3-67",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "SELECTED CUSTOMER TESTIMONIALS",
           "meta": "By John Smith posted July 20, 2016"
@@ -6996,22 +6996,22 @@
           ],
           "_anchor": "testimonials1-69",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 3,
-            "count": "3",
+            "showTitle": false,
+            "showSubtitle": true,
             "showImages": true,
             "showName": true,
             "showBio": true,
+            "count": "3",
+            "paddingTop": "1",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": false,
-            "showSubtitle": true
+            "overlayOpacity": 0.5
           },
           "title": "SOME CUSTOMER TESTIMONIALS",
           "subtitle": "Many more testimonials <a href=\"awardsandmedia.html\">BELOW</a>."
@@ -7027,7 +7027,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>12/11/16 A strong company and an interesting business model</p><p>Omkar P. Kulkarni, MPH, Director, Healthcare Innovation Accelerator TechStars-Cedars-Sinai (USA)</p><p><br></p><p>08/11/16 Kanteron has always been a step ahead</p><p>Fernando Bergaz de Hoyos, CEO, Radiology Network Service RNS (Spain)</p><p><br></p><p>07/11/16 Impressive. Again: Impressive</p><p>Dr. Ole Pleß, Biomarker Discovery, Fraunhofer Institute for Molecular Biology (Germany)</p><p><br></p><p>27/10/16 Hugely impressive</p><p>Mike Denis, Director of Information Strategy, Oxford Academic Health Science Network (UK)</p><p><br></p><p>01/08/16.- This new tech [Kanteron Systems’] could save the NHS millions of pounds every year.</p><p><a href=\"http://news.microsoft.com/en-gb/2016/08/01/this-new-tech-could-save-the-nhs-millions-of-pounds-every-year/\" target=\"_blank\">Microsoft News Centre (UK)</a></p><p><br></p><p>29/06/16.- Kanteron Systems […] makes it fast and easy to search and navigate through relevant genomic data sets.</p><p>Microsoft Genomics (USA)</p><p><br></p><p>02/05/16.- Fantastic story and great tech with good business model.</p><p>Ulf Hertin, Interim Nordic PM – Médecins Sans Frontières (Sweden)</p><p><br></p><p>01/05/16.- Wow! Fantastic… awesome.</p><p>Subhasish Ghosh, Associate Principal Consultant – Amazon Web Services AWS (India)</p><p><br></p><p>01/05/16.- Impressive and inspiring!</p><p>Pierre Zavattero, Business Development Manager – New Vision Display, Inc. (France)</p><p><br></p><p>08/03/16.- It is particularly exciting to see a real solution [Kanteron’s] at the intersection of so many disciplines that have historically been fragmented away from one another.</p><p>Florent Saint-Clair, Executive Vice President – Dicom Systems, Inc. (USA)</p><p><br></p><p>21/12/15.- [Kanteron’s] is a fantastic product!!</p><p>Sorin Dragomir, Founder &amp; CEO – Webhippocrates.com (Romania)</p><p><br></p><p>11/12/15.- Kanteron is a seriously exciting, world-changing business!</p><p>Elizabeth Varley, Founder &amp; CEO – TechHub (UK)</p><p><br></p><p>26/11/15.- [Kanteron Systems is] saving healthcare networks billions of dollars while saving millions of lives.</p><p>Silicon Valley Comes to the UK (UK)</p><p><br></p><p>06/11/15.- [Kanteron Systems] could hit £100m in revenue in the next three to five years. [Kanteron Systems is one of ] the British companies most likely to become technology giants to rival Facebook and Google.</p><p>The Guardian (UK)</p><p><br></p><p>03/11/15.- More precise diagnostics are achieved [with] Kanteron Systems.</p><p>Antonio Rodríguez, Cloud Solutions Director – IBM Spain, Portugal, Greece, and Israel</p><p><br></p><p>15/09/15.- The future of medicine today.</p><p>Brian de Francesca, CEO – Ver2 (United Arab Emirates)</p><p><br></p><p>02/06/15.- [Kanteron Systems has] a transformational, unprecedented platform that delivers state of the art image handling, as well as clinical genomics.</p><p>Dr. Szilard Voros, Founder &amp; CEO – Global Genomics Group (USA)</p><p><br></p><p>05/05/15.- Navigating from one to the other [digital pathology, traditional DICOM images, and Genomics data, in Kanteron’s Platform] is pretty seamless.</p><p>Sean W. Sigmon, B. Dev. Director, Translational Medicine – Oracle (USA)</p><p><br></p><p>08/04/15.- Together, with our combined solution, Kanteron and Hitachi Data Systems can improve healthcare and enable personalized medicine and more precise diagnostics.</p><p>Dave Wilson, Chief Technology Officer – Hitachi Data Systems (USA)</p><p><br></p><p>03/04/15.- Genomic data visualization, processing and integration into an EHR is something nobody else in the market offers today. With this partnership [with Kanteron Systems] everis is making clinical genomic history.</p><p>Mario Chao, Partner and ehCOS Chief Strategy Officer – everis an NTTdata company (Spain)</p><p><br></p><p>08/12/14.- Excellent work!</p><p>Marcelo Fernandez, Project Manager – IBM (Uruguay)</p><p><br></p><p>17/11/14.- It is an honor to know you and learn of your vision for the delivery of healthcare as personalized medicine through pathology, genomics, pharmacogenomics, and analytics. I believe that you have hit the need and strategy straight on, and find inspiration in your passion to delivery.</p><p>Tony Zordich, Managing Principal – Business BenchmaRx, NC (USA)</p><p><br></p><p>21/10/14.- Kanteron came recommended in our advisory board meetings with our analyst partner IDC</p><p>Gina Zanetti, Head of Strategic Accounts – GDS International, New York (USA)</p><p><br></p><p>20/19/14.- Indeed impressive.</p><p>Ravi Raju, Lead, Customer Mgmt. Group, Healthcare Products and Platforms – TATA Consultancy Services, Bangalore (India)</p><p><br></p><p>10/10/14</p><p>Thanks @jorgecortell Of course we follow @kanteron Systems! Your european open source software, mainly for the healthcare community, is WoW!</p><p>@biolalia, Madrid (Spain)</p><p><br></p><p>25/09/14.- The [Kanteron Systems] product is very interesting.</p><p>Rivka Colen, MD, Assistant Professor, Department of Diagnostic Radiology, Division of Diagnostic Imaging – The University of Texas MD Anderson Cancer Center, Houston, TX (USA)</p><p><br></p><p>19/09/14.- It is not often that a company makes such a massive impression. I’m still flabbergasted.</p><p>In the evening I spent hours thinking with a smile: Just imagine the impact on the World Wide Health system,… just imagine!</p><p>You’ve founded a beautiful company which really stands out.</p><p>HAH… I wish I had shares.</p><p>Job Oude Bekke, Account Manager Diagnostic Imaging – Simed International B.V. (The Netherlands)</p><p><br></p><p>24/06/14.- [Kanteron’s] SPLIT has huge potential to provide an easily consumable cloud storage and data sharing solution for healthcare.</p><p>Lisa Banks, Corporate Technology Evaluation – IBM CHQ, Innovation &amp; Technology (USA)</p><p><br></p><p>31/03/14.- In a live remote session with the top Pathologist in the country and with the Head of Diagnostics technologies and services from the Health Ministry, the three-way session [USA-Europe-Africa] worked flawlessly.  They saw the clear potential to double or triple their local Histology/Cytology case-load using  [Kanteron’s solution].</p><p>Jeremy Kagan, CEO – MMT Diagnostics LTD (Israel)</p><p><br></p><p>14/03/14.- There’s massive potential here.</p><p>Rob Addy, Research Vicepresident – Gartner, Dartford (UK)</p><p><br></p><p>16/03/14.- Nowadays Kanteron Systems has the most advanced knowledge in WSI, thanks to their vendor-independent approach in designing solutions to manage different kinds of digital image and different specialists needs. They will certainly be a point of reference in the near future.</p><p>Roberto Ongaro, eHealth Senior Consultant – HIM.IT – Dedalus Group Bologna (Italy)</p><p><br></p><p>28/02/14.- I am very impressed with Kanteron’s technology platform.</p><p>Cecil O. Lynch, MD, MS, Adjunct Professor – Pathology Informatics at UC Davis School of Medicine, CA (USA); Chief Medical Information Officer, Accenture (USA)</p><p>28/02/14.- Thank you. The Kanteron system is now being used in all locations and has been very well received. We appreciate all the work your [Kanteron’s] staff has put into getting us ready to schedule.</p><p>Steve Echols, Director of Marketing at Monticello Diagnostic Imaging, Fort Worth, TX (USA)</p><p>02/01/14.- Kanteron Systems’ TMIS is going to change the course of current management protocols. It will also have wide implications in terms of clinical staging and histological grading.</p><p>Shagufta Tahir Mufti, Associate Professor Anatomic and Clinical Pathology at King Abdulaziz University (Saudi Arabia)</p><p><br></p><p>10/12/13.- Kanteron Systems demoed the major steps it has taken in unifying the archival of three ‘big’ patient data elements: 1- Medical imaging, 2-pathology images and 3-genetic information within a single platform. While digital pathology is slowly starting to make its way as part of a broader enterprise IT strategy, Genomics will likely be the next frontier.</p><p>Nadim Michel Daher, Principal Analyst – Medical Imaging and Imaging Informatics, and Siddharth Saha, Global Program Leader Advanced MedTech, Frost &amp; Sullivan, Mountain View, CA (USA) “RSNA 2013 Review: Scouting the Showfloor for the Latest-Greatest in Medical Imaging and Imaging Informatics” in the report’s “Select WOW! Findings from the Showfloor” section.</p><p><br></p><p>06/12/13.- I’m fascinated with your product and believe it holds great promise.</p><p>Frank Genovese, HIMSS Analytics Consulting, New York, NY (USA)</p><p><br></p><p>02/12/13.- Incredibly exciting. With TMIS for PD a very high efficiency could be achieved. TMIS for PD would be enormously helpful to integrate the diagnosis , treatment, folllow up and recording of compliance with medication.</p><p>Dr. Genevieve Learmonth, Senior Lecturer Consultant Histo and Cytopathologist at NHS (UK) and University of Cape Town – Groote Schuur Hospital (South Africa)</p><p><br></p><p>29/07/2013.- We were attracted to Kanteron’s rapid development cycle; and an approach which simplifies patient data handling. Rather than selecting an off-the-shelf system, Kanteron’s solution was to tailor the system to our needs, resulting in a unique product that can deliver precisely what the physicians want.</p><p>Dr. Paul Marsh – Radiologist, Monticello Diagnostic Imaging, Fort Worth, TX (USA)</p><p><br></p><p>27/07/13.- Integration of digital pathology images into existing hospital systems like PACS and EHR in DICOM format is something that only Kanteron Systems can offer today commercially.</p><p>Gideon Ho Ph.D. – Co-founder and Chief Executive Officer, HistoIndex (Singapore)</p><p><br></p><p>24/05/13.- As both a clinician and researcher, I am very well aware of the pressing needs for hospitals like Mount Sinai to integrate data. Pathology and Laboratory Medicine generates around 70% of all critical clinical information. It is time to migrate to a fully digital setting, where pathologists can review and share cases using high resolution images. The problems of the recent past are being solved by Kanteron, including images that are now easy to import, a system that is easy to navigate, and from which knowledge can percolate and standards be defined. We believe that Kanteron is in the path of successful implementation of such critically needed platform.</p><p>Carlos Cordon-Cardo, M.D., Ph.D. – Professor and Chairman, Department of Pathology, The Mount Sinai Hospital, New York (USA)</p><p><br></p><p>16/04/13.- In being part of an efficient, fast and integrated teleconsultation network like the one Kanteron Systems can provide, patients can ultimately benefit from a faster and better diagnosis.</p><p>Carlos Salazar Lozano, M.D. – Medical Director, ISSSTE (Mexico)</p><p><br></p><p>26/12/12.- I had the pleasure to engage Kanteron for a very specific radiology software creation.  Through only emails and telecommunications, Kanteron’s design team was able to understand our compliance needs quickly and extrapolate from our specifications an Osirix plugin of vital functionality.  Kanteron was able to develop, version, and deliver the product quickly, which played a significant role in the successful, on-time validation of our radiology core lab to FDA’s 21CFR Part 11 standards.</p><p>The team at Kanteron always displayed not only professionalism in our dealings but superb expertise in creating the software we needed. They made themselves available (…) without delay, resulting in some of the best customer service I’ve experienced.</p><p>I would recommend Kanteron without reservations and would work with them again at any opportunity.</p><p>IT Project Manager that requests to remain anonymous due to the confidential matter of the custom development work performed for his organization (USA)</p><p><br></p><p>11/08/12.- To say I was ‘blown away’ by what Kanteron Systems are doing would be an understatement.</p><p>Sean Murphy, Development Manager, Clinical Improvement Division of the British Medical Journal (UK)</p><p><br></p><p>13/08/12.- Thank you again for the invaluable help. It was quick and efficient.</p><p>Dr. Jose Manuel Romero, Equine Clinic, Madrid (Spain)</p><p><br></p><p>11/08/12.- I happen to be on a wireless network with a high speed DSL internet connection, and was able to view the image (Pathology PACS) with surprisingly good speed.</p><p><br></p><p>17/08/12.- A very good implementation. Kanteron also has the images in open formats which I recommend.</p><p>Harold Lance Evans, MD, Hematopathology Fellow at University of Maryland Medical Center (USA)</p><p><br></p><p>19/06/12.- It works great!! Thanks so much for your help</p><p>Steve Hopkins, MD, FACS, Sonora Vein Center (California, USA)</p><p><br></p><p>12/06/12.- For us (…) Kanteron was an excellent choice (…). The experience of adaptation RIS-PACS with Kanteron has been an enriching one (…). Their engineers have patiently listened to our expectations and have resolved the barriers that our technology and our minds had. Without arrogance they have succeeded in giving an effective response to the administration of diagnostic imaging. This as a user and administrator of the imaging department, reassures me, because it means to see in practice the support that was promised.</p><p><br></p><p>12/09/11.- Kanteron Systems’ RIS, PACS and KDS was chosen for being more advanced, stable, flexible, and open than similar solutions offered by [other major multinational companies that have requested not to be named, including the one that Kanteron Systems replaced].</p><p>Dr. Luis Felipe Uriza, Director Dept. Radiology, University Hospital San Ignacio, Bogota (Colombia)</p><p><br></p><p>31/05/12.- Our experience with Kanteron was absolutely phenomenal, the migration was very smooth, everything seemed so easy to them.</p><p>Mark Large, IT Director, Great Ormond Street Hospital – NHS, London (UK), As seen in <a href=\"http://www.guardian.co.uk/government-computing-network/2012/jun/13/ipads-imacs-great-ormond-street-hospital-trust\" target=\"_blank\">The Guardian</a>, <a href=\"http://www.buildingbetterhealthcare.co.uk/news/article_page/Apple_technology_boosts_care_at_Great_Ormond_Street/78680\" target=\"_blank\">Building Better Healthcare</a>, <a href=\"http://www.bbc.co.uk/iplayer/episode/b01jzn25/Great_Ormond_Street_Series_2_Decisions_for_Life/\" target=\"_blank\">BBC</a>, <a href=\"http://www.healthcareitnews.com/press-release/great-ormond-street-children%E2%80%99s-hospital-brings-apple-technology-fold\" target=\"_blank\">Healthcare&nbsp;IT News</a>, <a href=\"http://www.ehi.co.uk/news/acute-care/7817/great-ormond-street-bites-into-apple\" target=\"_blank\">E-Health Insider</a>, <a href=\"http://openhealthnews.com/content/kanteron-systems-helps-london-hospital-migrate-over-10-million-images-weekend\" target=\"_blank\">Open Health News</a>, <a href=\"http://www.ehealthnews.eu/industry/3104-great-ormond-street-childrens-hospital-brings-appler-technology-into-the-fold\" target=\"_blank\">eHealth Europe</a>, <a href=\"http://www.hospitaliteurope.com/article/28830/UK_children%27s_hospital_welcomes_Apple_technology\" target=\"_blank\">Hospital IT Europe</a>, <a href=\"http://www.government-online.net/great-ormond-street-hospital-deploys-ipads-and-imacs/\" target=\"_blank\">UK Government Online</a>, <a href=\"http://www.govopps.co.uk/tablet-devices-rolled-out-at-great-ormond-street-hospital/\" target=\"_blank\">UK Government Opportunities</a>, <a href=\"http://www.healthcare-today.co.uk/news/ipads-deployed-at-great-ormond-street/22107/\" target=\"_blank\">Healthcare Today</a>, and <a href=\"http://www.computerweekly.com/news/2240159901/CIO-interview-Mark-Large-Great-ormond-Street-Hospital\" target=\"_blank\">ComputerWeekly interview</a></p><p><br></p><p>05/09/11.- From day one Kanteron Systems offers us an excellent tech support, and 3 years later we are still convinced that it was the best choice.</p><p>D. Juan Antonio Alba, IT Director, C.H.I.P. Hospital, Málaga (Spain)</p><p><br></p><p>08/08/11.- [KDS CloudApp Plug-in] Is spectacular not only I can open it [studies] at home, I can also open it in the iPad.</p><p>Dr. Eduardo P. Eyheremendy, Medical Director HHT Foundation, Teaching Commission Argentina Radiology Society, Yale University, Editors Board Radiology Magazine of Argentina, German Hospital (Argentina)</p><p><br></p><p>18/05/11.- Thanks to Kanteron we have saved over 40,000 € in a dedicated hardware solution, since their KDS solution offers specific and very useful characteristics for many specialties, at a much lower cost –  less than a sixth of the competitors’ cost–.</p><p>Dr. Julia Camps Herrero, Radióloga, La Ribera Hospital , Valencia (Spain)</p><p><br></p><p>12/11/10.- My objective was that my clients were satisfied, and all of them have told me that [the course Kanteron Systems delivered] was very useful, it is a fact that can be checked with the vascular surgeons of the North of Spain Society [of Cardiology]. It has been a pleasure to work with [Kanteron Systems’ Product Manager], he has been very useful, a great professional and very kind. The feedback I have given to my company about you [Kanteron Systems] has been very positive and also the one I have received, from my customers, about his work [Kanteron Systems’ Product Manager]. It has been a pleasure to work with you and I hope we can continue collaborating in the future.</p><p>Mónica Fernández – Sales specialist, Aortic Intervention, COOK Spain (Gijón, Spain)</p><p><br></p><p>12/05/10.-  You have a fantastic product.</p><p>Jack A. Ziffer, PhD, MD, FSCCT; President – Society of Cardiovascular Computed Tomograhy – Miami (USA)</p><p><br></p><p>22/04/10.- Thanks to the use of Kanteron’s solutions we have solved two problems, on one hand the storage of studies and on the other teleradiology. It is remarkable the flexibility of their workstations, which allow us operations that we could not do with workstations from G.E. or Siemens. Another advantage is the custom development. In our case they [Kanteron Systems] were responsible for configuring all connexions between all our centers. They also developed for us applications which allow the referring doctors to see the study from any computer.</p><p>Pedro González Cabezas, MD. Nuclear Medicine Doctor. Red Pet Iberia. Valencia-Seville-Alicante-Barcelona (Spain)</p><p><br></p><p>31/03/10.- Francisco Cortes, general director of Tallard Mexico, is happy with the success case from one of their integrators installing the whole Administration, Storage, Distribution and Postprocessing of Digital Medical Images (PACS/RIS) in the National Healthcare Institution 20 de Noviembre ISSSTE. The company can’t stop promoting the case, which involved technologies from the following companies: Ceurac- Kanteron and Apple.</p><p>Published in <a href=\"http://www.infochannel.com.mx/11-27446/www.aspel.com/infochannel\" target=\"_blank\">Infochannel</a> (Mexico)</p><p><br></p><p>With this system we hope to offer, above all, a faster and more efficient diagnostic service to state employees, who are the users of this hospital.” Dr. Rafael Navarro Meneses, Hospital Director; “The Government has invested heavily in improving the clinical services for stakeholders and this system is part of a larger project that aims to both speed up the diagnostic and reduce our polluting emissions”. Dr. Julita Orozco Vázquez, Radiology Department Head, explained that having all digital systems now, to read MRI, XRays, mammographies and other clinical information, has allowed them to reduce film printing up to 75%.</p><p>Published in <a href=\"http://www.reforma.com/ciencia/articulo/582/1163000/\" target=\"_blank\">La Reforma Newspaper</a> (Mexico)</p><p><br></p><p>The successful implementation of the PACS at Centro Médico Nacional 20 de Noviembre, proves once again the compromise public institutions have with offering real solutions to the main health issues of the Mexican population. This initiative clearly places the insured as center of the attention of ISSSTE’s modernization efforts</p><p>Dr. Rafael Manuel Navarro Meneses, Director of CMN “20 de Noviembre”.</p><p><br></p><p>[With Kanteron Systems’ solutions] there is an important diagnostic support, because with this system we can process images, using high-tech tools to render in 3D, 4D and 5D or do virtual endoscopies, which has allowed, in some cases, substantial treatment improvements</p><p>Dra. Julita Orozco, Head of the Radiology Department</p><p><br></p><p>Published in <a href=\"http://www.cronica.com.mx/especial.php?id_tema=1410&amp;id_nota=542843\" target=\"_blank\">La Crónica de Hoy Newspaper (Mexico) </a>and other media <a href=\"http://www.ganarsalud.com/news2/news.php?newsid=738\" target=\"_blank\">(Ganar Salud</a>, <a href=\"http://www.resenadigital.com/?dir=noticias&amp;ac=imprimir&amp;id_seccion=13&amp;id_noticia=1007\" target=\"_blank\">Reseña Digital</a>, <a href=\"http://www.wradio.com.mx/llevar.aspx?id=1379694\" target=\"_blank\">WRadio</a>, <a href=\"http://dialogoejecutivo.com.mx/actualidades__if/5810\" target=\"_blank\">Diálogo Ejecutivo</a>, <a href=\"http://www.cronica.com.mx/especial.php?id_tema=1410&amp;id_nota=542843\" target=\"_blank\">Crónica de Hoy</a>, <a href=\"http://reforma.internetciudad.com/nota.php?id=3075\" target=\"_blank\">La Reforma</a>, <a href=\"http://tvolucion.esmas.com/noticieros/noticiero-con-joaquin-lopez-doriga/110866/operan-maria-fernanda-contra-anorexia\" target=\"_blank\">TV</a>)</p><p><br></p><p>15/07/09.-  Kanteron Systems’ solutions seem robust and dependable, finishing among the top 3. The criteria used were Functional Requirements, Technical Requirements, Company Profile, IT Processes (technical support and maintenance), as well as Total Cost of Ownership (TCO).</p><p>Mr. Christopher Dunne – Solutions Architect, Beora Technologies (Mexico)</p><p><br></p><p>04/05/09.- Kanteron Systems’ tech support and training (among many other things) are very good.</p><p>Mr. Agustín Zamarro – CT/MR &amp; DEXA Sales Specialist, Radiología S.A. (Spain)</p><p><br></p><p>08/11/08.- Kanteron Systems allows me to develop additional care-centers, hospitals in other cities… while keeping everything under the same software or equipment. My company can grow with Kanteron Systems as much as I want or as much as the market allows me.</p><p>Mr. Jesús Burgos – CEO, Encarnación Hospital, Málaga (Spain)</p><p><br></p><p>01/10/08.-  A very useful work tool in a sports medicine practice</p><p>Dr. Cesar Cobián – President of the Spanish Association of Football Team Doctors (AEMEF) (Spain)</p><p><br></p><p>15/04/08.-  Thanks. The new software [KDS] is excellent. Thank you</p><p>Dr. Giovanni Pulitanò – Cardiovascular Medicine Director, Policlinico Madonna della Consolazione (Italy)</p><p><br></p><p>08/11/07.- KDS is a great tool for the daily work with tomographic techniques (CT, MR). I like the ease-of-use, speed and versatility of KDS. Systems like KDS should be a must in any Radiology Department.</p><p>Dr. José Vilar Samper – President of the 2nd International Congress of Thorax Radiology and Chest Pathology Diagnosis (2009 – Spain)</p><p><br></p><p>11/11/07.- [KDS] applications for post-processing are really fast and useful. This is particularly noticeable in lower-limbs vascular renderings where over 2000 images are used and yet it only takes a few seconds to get the job done. It is a very intuitive platform. I guess you will save a lot in user manuals because you do not need them.</p><p>Dr. Fernando Bergaz de Hoyos – Spanish Teleradiology Representative for the European Society of Telemedicine – Medical Director, RNS Group (Spain)</p>"
+          "text": "<p>29/07/17 Pleasantly surprised, overwhelmed</p>Miguel Ramirez Backhaus, MD<span style=\"font-size: 1.07rem; line-height: 1.5;\">, Valencian Oncology Institute - IVO (Spain)</span><p><br></p><p>12/11/16 A strong company and an interesting business model</p><p>Omkar P. Kulkarni, MPH, Director, Healthcare Innovation Accelerator TechStars-Cedars-Sinai (USA)</p><p><br></p><p>08/11/16 Kanteron has always been a step ahead</p><p>Fernando Bergaz de Hoyos, CEO, Radiology Network Service RNS (Spain)</p><p><br></p><p>07/11/16 Impressive. Again: Impressive</p><p>Dr. Ole Pleß, Biomarker Discovery, Fraunhofer Institute for Molecular Biology (Germany)</p><p><br></p><p>27/10/16 Hugely impressive</p><p>Mike Denis, Director of Information Strategy, Oxford Academic Health Science Network (UK)</p><p><br></p><p>01/08/16.- This new tech [Kanteron Systems’] could save the NHS millions of pounds every year.</p><p><a href=\"http://news.microsoft.com/en-gb/2016/08/01/this-new-tech-could-save-the-nhs-millions-of-pounds-every-year/\" target=\"_blank\">Microsoft News Centre (UK)</a></p><p><br></p><p>29/06/16.- Kanteron Systems […] makes it fast and easy to search and navigate through relevant genomic data sets.</p><p>Microsoft Genomics (USA)</p><p><br></p><p>02/05/16.- Fantastic story and great tech with good business model.</p><p>Ulf Hertin, Interim Nordic PM – Médecins Sans Frontières (Sweden)</p><p><br></p><p>01/05/16.- Wow! Fantastic… awesome.</p><p>Subhasish Ghosh, Associate Principal Consultant – Amazon Web Services AWS (India)</p><p><br></p><p>01/05/16.- Impressive and inspiring!</p><p>Pierre Zavattero, Business Development Manager – New Vision Display, Inc. (France)</p><p><br></p><p>08/03/16.- It is particularly exciting to see a real solution [Kanteron’s] at the intersection of so many disciplines that have historically been fragmented away from one another.</p><p>Florent Saint-Clair, Executive Vice President – Dicom Systems, Inc. (USA)</p><p><br></p><p>21/12/15.- [Kanteron’s] is a fantastic product!!</p><p>Sorin Dragomir, Founder &amp; CEO – Webhippocrates.com (Romania)</p><p><br></p><p>11/12/15.- Kanteron is a seriously exciting, world-changing business!</p><p>Elizabeth Varley, Founder &amp; CEO – TechHub (UK)</p><p><br></p><p>26/11/15.- [Kanteron Systems is] saving healthcare networks billions of dollars while saving millions of lives.</p><p>Silicon Valley Comes to the UK (UK)</p><p><br></p><p>06/11/15.- [Kanteron Systems] could hit £100m in revenue in the next three to five years. [Kanteron Systems is one of ] the British companies most likely to become technology giants to rival Facebook and Google.</p><p>The Guardian (UK)</p><p><br></p><p>03/11/15.- More precise diagnostics are achieved [with] Kanteron Systems.</p><p>Antonio Rodríguez, Cloud Solutions Director – IBM Spain, Portugal, Greece, and Israel</p><p><br></p><p>15/09/15.- The future of medicine today.</p><p>Brian de Francesca, CEO – Ver2 (United Arab Emirates)</p><p><br></p><p>02/06/15.- [Kanteron Systems has] a transformational, unprecedented platform that delivers state of the art image handling, as well as clinical genomics.</p><p>Dr. Szilard Voros, Founder &amp; CEO – Global Genomics Group (USA)</p><p><br></p><p>05/05/15.- Navigating from one to the other [digital pathology, traditional DICOM images, and Genomics data, in Kanteron’s Platform] is pretty seamless.</p><p>Sean W. Sigmon, B. Dev. Director, Translational Medicine – Oracle (USA)</p><p><br></p><p>08/04/15.- Together, with our combined solution, Kanteron and Hitachi Data Systems can improve healthcare and enable personalized medicine and more precise diagnostics.</p><p>Dave Wilson, Chief Technology Officer – Hitachi Data Systems (USA)</p><p><br></p><p>03/04/15.- Genomic data visualization, processing and integration into an EHR is something nobody else in the market offers today. With this partnership [with Kanteron Systems] everis is making clinical genomic history.</p><p>Mario Chao, Partner and ehCOS Chief Strategy Officer – everis an NTTdata company (Spain)</p><p><br></p><p>08/12/14.- Excellent work!</p><p>Marcelo Fernandez, Project Manager – IBM (Uruguay)</p><p><br></p><p>17/11/14.- It is an honor to know you and learn of your vision for the delivery of healthcare as personalized medicine through pathology, genomics, pharmacogenomics, and analytics. I believe that you have hit the need and strategy straight on, and find inspiration in your passion to delivery.</p><p>Tony Zordich, Managing Principal – Business BenchmaRx, NC (USA)</p><p><br></p><p>21/10/14.- Kanteron came recommended in our advisory board meetings with our analyst partner IDC</p><p>Gina Zanetti, Head of Strategic Accounts – GDS International, New York (USA)</p><p><br></p><p>20/19/14.- Indeed impressive.</p><p>Ravi Raju, Lead, Customer Mgmt. Group, Healthcare Products and Platforms – TATA Consultancy Services, Bangalore (India)</p><p><br></p><p>10/10/14</p><p>Thanks @jorgecortell Of course we follow @kanteron Systems! Your european open source software, mainly for the healthcare community, is WoW!</p><p>@biolalia, Madrid (Spain)</p><p><br></p><p>25/09/14.- The [Kanteron Systems] product is very interesting.</p><p>Rivka Colen, MD, Assistant Professor, Department of Diagnostic Radiology, Division of Diagnostic Imaging – The University of Texas MD Anderson Cancer Center, Houston, TX (USA)</p><p><br></p><p>19/09/14.- It is not often that a company makes such a massive impression. I’m still flabbergasted.</p><p>In the evening I spent hours thinking with a smile: Just imagine the impact on the World Wide Health system,… just imagine!</p><p>You’ve founded a beautiful company which really stands out.</p><p>HAH… I wish I had shares.</p><p>Job Oude Bekke, Account Manager Diagnostic Imaging – Simed International B.V. (The Netherlands)</p><p><br></p><p>24/06/14.- [Kanteron’s] SPLIT has huge potential to provide an easily consumable cloud storage and data sharing solution for healthcare.</p><p>Lisa Banks, Corporate Technology Evaluation – IBM CHQ, Innovation &amp; Technology (USA)</p><p><br></p><p>31/03/14.- In a live remote session with the top Pathologist in the country and with the Head of Diagnostics technologies and services from the Health Ministry, the three-way session [USA-Europe-Africa] worked flawlessly.  They saw the clear potential to double or triple their local Histology/Cytology case-load using  [Kanteron’s solution].</p><p>Jeremy Kagan, CEO – MMT Diagnostics LTD (Israel)</p><p><br></p><p>14/03/14.- There’s massive potential here.</p><p>Rob Addy, Research Vicepresident – Gartner, Dartford (UK)</p><p><br></p><p>16/03/14.- Nowadays Kanteron Systems has the most advanced knowledge in WSI, thanks to their vendor-independent approach in designing solutions to manage different kinds of digital image and different specialists needs. They will certainly be a point of reference in the near future.</p><p>Roberto Ongaro, eHealth Senior Consultant – HIM.IT – Dedalus Group Bologna (Italy)</p><p><br></p><p>28/02/14.- I am very impressed with Kanteron’s technology platform.</p><p>Cecil O. Lynch, MD, MS, Adjunct Professor – Pathology Informatics at UC Davis School of Medicine, CA (USA); Chief Medical Information Officer, Accenture (USA)</p><p>28/02/14.- Thank you. The Kanteron system is now being used in all locations and has been very well received. We appreciate all the work your [Kanteron’s] staff has put into getting us ready to schedule.</p><p>Steve Echols, Director of Marketing at Monticello Diagnostic Imaging, Fort Worth, TX (USA)</p><p>02/01/14.- Kanteron Systems’ TMIS is going to change the course of current management protocols. It will also have wide implications in terms of clinical staging and histological grading.</p><p>Shagufta Tahir Mufti, Associate Professor Anatomic and Clinical Pathology at King Abdulaziz University (Saudi Arabia)</p><p><br></p><p>10/12/13.- Kanteron Systems demoed the major steps it has taken in unifying the archival of three ‘big’ patient data elements: 1- Medical imaging, 2-pathology images and 3-genetic information within a single platform. While digital pathology is slowly starting to make its way as part of a broader enterprise IT strategy, Genomics will likely be the next frontier.</p><p>Nadim Michel Daher, Principal Analyst – Medical Imaging and Imaging Informatics, and Siddharth Saha, Global Program Leader Advanced MedTech, Frost &amp; Sullivan, Mountain View, CA (USA) “RSNA 2013 Review: Scouting the Showfloor for the Latest-Greatest in Medical Imaging and Imaging Informatics” in the report’s “Select WOW! Findings from the Showfloor” section.</p><p><br></p><p>06/12/13.- I’m fascinated with your product and believe it holds great promise.</p><p>Frank Genovese, HIMSS Analytics Consulting, New York, NY (USA)</p><p><br></p><p>02/12/13.- Incredibly exciting. With TMIS for PD a very high efficiency could be achieved. TMIS for PD would be enormously helpful to integrate the diagnosis , treatment, folllow up and recording of compliance with medication.</p><p>Dr. Genevieve Learmonth, Senior Lecturer Consultant Histo and Cytopathologist at NHS (UK) and University of Cape Town – Groote Schuur Hospital (South Africa)</p><p><br></p><p>29/07/2013.- We were attracted to Kanteron’s rapid development cycle; and an approach which simplifies patient data handling. Rather than selecting an off-the-shelf system, Kanteron’s solution was to tailor the system to our needs, resulting in a unique product that can deliver precisely what the physicians want.</p><p>Dr. Paul Marsh – Radiologist, Monticello Diagnostic Imaging, Fort Worth, TX (USA)</p><p><br></p><p>27/07/13.- Integration of digital pathology images into existing hospital systems like PACS and EHR in DICOM format is something that only Kanteron Systems can offer today commercially.</p><p>Gideon Ho Ph.D. – Co-founder and Chief Executive Officer, HistoIndex (Singapore)</p><p><br></p><p>24/05/13.- As both a clinician and researcher, I am very well aware of the pressing needs for hospitals like Mount Sinai to integrate data. Pathology and Laboratory Medicine generates around 70% of all critical clinical information. It is time to migrate to a fully digital setting, where pathologists can review and share cases using high resolution images. The problems of the recent past are being solved by Kanteron, including images that are now easy to import, a system that is easy to navigate, and from which knowledge can percolate and standards be defined. We believe that Kanteron is in the path of successful implementation of such critically needed platform.</p><p>Carlos Cordon-Cardo, M.D., Ph.D. – Professor and Chairman, Department of Pathology, The Mount Sinai Hospital, New York (USA)</p><p><br></p><p>16/04/13.- In being part of an efficient, fast and integrated teleconsultation network like the one Kanteron Systems can provide, patients can ultimately benefit from a faster and better diagnosis.</p><p>Carlos Salazar Lozano, M.D. – Medical Director, ISSSTE (Mexico)</p><p><br></p><p>26/12/12.- I had the pleasure to engage Kanteron for a very specific radiology software creation.  Through only emails and telecommunications, Kanteron’s design team was able to understand our compliance needs quickly and extrapolate from our specifications an Osirix plugin of vital functionality.  Kanteron was able to develop, version, and deliver the product quickly, which played a significant role in the successful, on-time validation of our radiology core lab to FDA’s 21CFR Part 11 standards.</p><p>The team at Kanteron always displayed not only professionalism in our dealings but superb expertise in creating the software we needed. They made themselves available (…) without delay, resulting in some of the best customer service I’ve experienced.</p><p>I would recommend Kanteron without reservations and would work with them again at any opportunity.</p><p>IT Project Manager that requests to remain anonymous due to the confidential matter of the custom development work performed for his organization (USA)</p><p><br></p><p>11/08/12.- To say I was ‘blown away’ by what Kanteron Systems are doing would be an understatement.</p><p>Sean Murphy, Development Manager, Clinical Improvement Division of the British Medical Journal (UK)</p><p><br></p><p>13/08/12.- Thank you again for the invaluable help. It was quick and efficient.</p><p>Dr. Jose Manuel Romero, Equine Clinic, Madrid (Spain)</p><p><br></p><p>11/08/12.- I happen to be on a wireless network with a high speed DSL internet connection, and was able to view the image (Pathology PACS) with surprisingly good speed.</p><p><br></p><p>17/08/12.- A very good implementation. Kanteron also has the images in open formats which I recommend.</p><p>Harold Lance Evans, MD, Hematopathology Fellow at University of Maryland Medical Center (USA)</p><p><br></p><p>19/06/12.- It works great!! Thanks so much for your help</p><p>Steve Hopkins, MD, FACS, Sonora Vein Center (California, USA)</p><p><br></p><p>12/06/12.- For us (…) Kanteron was an excellent choice (…). The experience of adaptation RIS-PACS with Kanteron has been an enriching one (…). Their engineers have patiently listened to our expectations and have resolved the barriers that our technology and our minds had. Without arrogance they have succeeded in giving an effective response to the administration of diagnostic imaging. This as a user and administrator of the imaging department, reassures me, because it means to see in practice the support that was promised.</p><p><br></p><p>12/09/11.- Kanteron Systems’ RIS, PACS and KDS was chosen for being more advanced, stable, flexible, and open than similar solutions offered by [other major multinational companies that have requested not to be named, including the one that Kanteron Systems replaced].</p><p>Dr. Luis Felipe Uriza, Director Dept. Radiology, University Hospital San Ignacio, Bogota (Colombia)</p><p><br></p><p>31/05/12.- Our experience with Kanteron was absolutely phenomenal, the migration was very smooth, everything seemed so easy to them.</p><p>Mark Large, IT Director, Great Ormond Street Hospital – NHS, London (UK), As seen in <a href=\"http://www.guardian.co.uk/government-computing-network/2012/jun/13/ipads-imacs-great-ormond-street-hospital-trust\" target=\"_blank\">The Guardian</a>, <a href=\"http://www.buildingbetterhealthcare.co.uk/news/article_page/Apple_technology_boosts_care_at_Great_Ormond_Street/78680\" target=\"_blank\">Building Better Healthcare</a>, <a href=\"http://www.bbc.co.uk/iplayer/episode/b01jzn25/Great_Ormond_Street_Series_2_Decisions_for_Life/\" target=\"_blank\">BBC</a>, <a href=\"http://www.healthcareitnews.com/press-release/great-ormond-street-children%E2%80%99s-hospital-brings-apple-technology-fold\" target=\"_blank\">Healthcare&nbsp;IT News</a>, <a href=\"http://www.ehi.co.uk/news/acute-care/7817/great-ormond-street-bites-into-apple\" target=\"_blank\">E-Health Insider</a>, <a href=\"http://openhealthnews.com/content/kanteron-systems-helps-london-hospital-migrate-over-10-million-images-weekend\" target=\"_blank\">Open Health News</a>, <a href=\"http://www.ehealthnews.eu/industry/3104-great-ormond-street-childrens-hospital-brings-appler-technology-into-the-fold\" target=\"_blank\">eHealth Europe</a>, <a href=\"http://www.hospitaliteurope.com/article/28830/UK_children%27s_hospital_welcomes_Apple_technology\" target=\"_blank\">Hospital IT Europe</a>, <a href=\"http://www.government-online.net/great-ormond-street-hospital-deploys-ipads-and-imacs/\" target=\"_blank\">UK Government Online</a>, <a href=\"http://www.govopps.co.uk/tablet-devices-rolled-out-at-great-ormond-street-hospital/\" target=\"_blank\">UK Government Opportunities</a>, <a href=\"http://www.healthcare-today.co.uk/news/ipads-deployed-at-great-ormond-street/22107/\" target=\"_blank\">Healthcare Today</a>, and <a href=\"http://www.computerweekly.com/news/2240159901/CIO-interview-Mark-Large-Great-ormond-Street-Hospital\" target=\"_blank\">ComputerWeekly interview</a></p><p><br></p><p>05/09/11.- From day one Kanteron Systems offers us an excellent tech support, and 3 years later we are still convinced that it was the best choice.</p><p>D. Juan Antonio Alba, IT Director, C.H.I.P. Hospital, Málaga (Spain)</p><p><br></p><p>08/08/11.- [KDS CloudApp Plug-in] Is spectacular not only I can open it [studies] at home, I can also open it in the iPad.</p><p>Dr. Eduardo P. Eyheremendy, Medical Director HHT Foundation, Teaching Commission Argentina Radiology Society, Yale University, Editors Board Radiology Magazine of Argentina, German Hospital (Argentina)</p><p><br></p><p>18/05/11.- Thanks to Kanteron we have saved over 40,000 € in a dedicated hardware solution, since their KDS solution offers specific and very useful characteristics for many specialties, at a much lower cost –  less than a sixth of the competitors’ cost–.</p><p>Dr. Julia Camps Herrero, Radióloga, La Ribera Hospital , Valencia (Spain)</p><p><br></p><p>12/11/10.- My objective was that my clients were satisfied, and all of them have told me that [the course Kanteron Systems delivered] was very useful, it is a fact that can be checked with the vascular surgeons of the North of Spain Society [of Cardiology]. It has been a pleasure to work with [Kanteron Systems’ Product Manager], he has been very useful, a great professional and very kind. The feedback I have given to my company about you [Kanteron Systems] has been very positive and also the one I have received, from my customers, about his work [Kanteron Systems’ Product Manager]. It has been a pleasure to work with you and I hope we can continue collaborating in the future.</p><p>Mónica Fernández – Sales specialist, Aortic Intervention, COOK Spain (Gijón, Spain)</p><p><br></p><p>12/05/10.-  You have a fantastic product.</p><p>Jack A. Ziffer, PhD, MD, FSCCT; President – Society of Cardiovascular Computed Tomograhy – Miami (USA)</p><p><br></p><p>22/04/10.- Thanks to the use of Kanteron’s solutions we have solved two problems, on one hand the storage of studies and on the other teleradiology. It is remarkable the flexibility of their workstations, which allow us operations that we could not do with workstations from G.E. or Siemens. Another advantage is the custom development. In our case they [Kanteron Systems] were responsible for configuring all connexions between all our centers. They also developed for us applications which allow the referring doctors to see the study from any computer.</p><p>Pedro González Cabezas, MD. Nuclear Medicine Doctor. Red Pet Iberia. Valencia-Seville-Alicante-Barcelona (Spain)</p><p><br></p><p>31/03/10.- Francisco Cortes, general director of Tallard Mexico, is happy with the success case from one of their integrators installing the whole Administration, Storage, Distribution and Postprocessing of Digital Medical Images (PACS/RIS) in the National Healthcare Institution 20 de Noviembre ISSSTE. The company can’t stop promoting the case, which involved technologies from the following companies: Ceurac- Kanteron and Apple.</p><p>Published in <a href=\"http://www.infochannel.com.mx/11-27446/www.aspel.com/infochannel\" target=\"_blank\">Infochannel</a> (Mexico)</p><p><br></p><p>With this system we hope to offer, above all, a faster and more efficient diagnostic service to state employees, who are the users of this hospital.” Dr. Rafael Navarro Meneses, Hospital Director; “The Government has invested heavily in improving the clinical services for stakeholders and this system is part of a larger project that aims to both speed up the diagnostic and reduce our polluting emissions”. Dr. Julita Orozco Vázquez, Radiology Department Head, explained that having all digital systems now, to read MRI, XRays, mammographies and other clinical information, has allowed them to reduce film printing up to 75%.</p><p>Published in <a href=\"http://www.reforma.com/ciencia/articulo/582/1163000/\" target=\"_blank\">La Reforma Newspaper</a> (Mexico)</p><p><br></p><p>The successful implementation of the PACS at Centro Médico Nacional 20 de Noviembre, proves once again the compromise public institutions have with offering real solutions to the main health issues of the Mexican population. This initiative clearly places the insured as center of the attention of ISSSTE’s modernization efforts</p><p>Dr. Rafael Manuel Navarro Meneses, Director of CMN “20 de Noviembre”.</p><p><br></p><p>[With Kanteron Systems’ solutions] there is an important diagnostic support, because with this system we can process images, using high-tech tools to render in 3D, 4D and 5D or do virtual endoscopies, which has allowed, in some cases, substantial treatment improvements</p><p>Dra. Julita Orozco, Head of the Radiology Department</p><p><br></p><p>Published in <a href=\"http://www.cronica.com.mx/especial.php?id_tema=1410&amp;id_nota=542843\" target=\"_blank\">La Crónica de Hoy Newspaper (Mexico) </a>and other media <a href=\"http://www.ganarsalud.com/news2/news.php?newsid=738\" target=\"_blank\">(Ganar Salud</a>, <a href=\"http://www.resenadigital.com/?dir=noticias&amp;ac=imprimir&amp;id_seccion=13&amp;id_noticia=1007\" target=\"_blank\">Reseña Digital</a>, <a href=\"http://www.wradio.com.mx/llevar.aspx?id=1379694\" target=\"_blank\">WRadio</a>, <a href=\"http://dialogoejecutivo.com.mx/actualidades__if/5810\" target=\"_blank\">Diálogo Ejecutivo</a>, <a href=\"http://www.cronica.com.mx/especial.php?id_tema=1410&amp;id_nota=542843\" target=\"_blank\">Crónica de Hoy</a>, <a href=\"http://reforma.internetciudad.com/nota.php?id=3075\" target=\"_blank\">La Reforma</a>, <a href=\"http://tvolucion.esmas.com/noticieros/noticiero-con-joaquin-lopez-doriga/110866/operan-maria-fernanda-contra-anorexia\" target=\"_blank\">TV</a>)</p><p><br></p><p>15/07/09.-  Kanteron Systems’ solutions seem robust and dependable, finishing among the top 3. The criteria used were Functional Requirements, Technical Requirements, Company Profile, IT Processes (technical support and maintenance), as well as Total Cost of Ownership (TCO).</p><p>Mr. Christopher Dunne – Solutions Architect, Beora Technologies (Mexico)</p><p><br></p><p>04/05/09.- Kanteron Systems’ tech support and training (among many other things) are very good.</p><p>Mr. Agustín Zamarro – CT/MR &amp; DEXA Sales Specialist, Radiología S.A. (Spain)</p><p><br></p><p>08/11/08.- Kanteron Systems allows me to develop additional care-centers, hospitals in other cities… while keeping everything under the same software or equipment. My company can grow with Kanteron Systems as much as I want or as much as the market allows me.</p><p>Mr. Jesús Burgos – CEO, Encarnación Hospital, Málaga (Spain)</p><p><br></p><p>01/10/08.-  A very useful work tool in a sports medicine practice</p><p>Dr. Cesar Cobián – President of the Spanish Association of Football Team Doctors (AEMEF) (Spain)</p><p><br></p><p>15/04/08.-  Thanks. The new software [KDS] is excellent. Thank you</p><p>Dr. Giovanni Pulitanò – Cardiovascular Medicine Director, Policlinico Madonna della Consolazione (Italy)</p><p><br></p><p>08/11/07.- KDS is a great tool for the daily work with tomographic techniques (CT, MR). I like the ease-of-use, speed and versatility of KDS. Systems like KDS should be a must in any Radiology Department.</p><p>Dr. José Vilar Samper – President of the 2nd International Congress of Thorax Radiology and Chest Pathology Diagnosis (2009 – Spain)</p><p><br></p><p>11/11/07.- [KDS] applications for post-processing are really fast and useful. This is particularly noticeable in lower-limbs vascular renderings where over 2000 images are used and yet it only takes a few seconds to get the job done. It is a very intuitive platform. I guess you will save a lot in user manuals because you do not need them.</p><p>Dr. Fernando Bergaz de Hoyos – Spanish Teleradiology Representative for the European Society of Telemedicine – Medical Director, RNS Group (Spain)</p>"
         },
         {
           "_inherit": "social-buttons2",
@@ -7045,13 +7045,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -7068,19 +7068,19 @@
           },
           "_anchor": "form1-6c",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -7124,7 +7124,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     },
@@ -7150,10 +7150,10 @@
           "_name": "header3",
           "_anchor": "header3-6e",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#ff8d00",
-            "showMeta": false
+            "bgColor": "#ff8d00"
           },
           "title": "KANTERON SYSTEMS NEWS",
           "meta": "By John Smith posted July 20, 2016"
@@ -7214,17 +7214,17 @@
           "_name": "menu",
           "_anchor": "menu-6f",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ff8d00",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -7252,26 +7252,26 @@
           "_name": "features3",
           "_anchor": "features3-6h",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "4",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -7391,13 +7391,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/KanteronSystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/b/102193154533258755916/102193154533258755916\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCAYCuOrmhDnYfgEv6AkdldA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.flickr.com/photos/kanteron\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-flickr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"http://www.pinterest.com/kanteronsystems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/kanteron-systems\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
@@ -7414,19 +7414,19 @@
           },
           "_anchor": "form1-6k",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Help us bring Precision Medicine to the Point of Care",
@@ -7470,7 +7470,7 @@
             "paddingBottom": 1,
             "bgColor": "#ff8d00"
           },
-          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems USA, Inc. is registered in the State of New York (USA)<br>447 Broadway, 2nd floor; New York, NY 10013-2562 (USA)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
+          "text": "<p><b>CORP. REG.:</b></p><ul><li>Kanteron Systems S.L.U. is registered in Valencia (Spain) CIF VAT Reg. Num.: ES-B97632400<br>C/ Palleter 10, Puçol 46530 Valencia (Spain)</li><li>Kanteron Systems UK, Ltd. is registered in London (UK) Companies House 9777052 | VATReg.: GB-227298682 | DUNS: 22-112-0341<br>TechHub @ Google Campus, 4-5 Bonhill Street, London EC2A 4BX (United Kingdom)</li></ul>"
         }
       ]
     }
