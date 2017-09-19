@@ -1,6 +1,6 @@
-@import url(../../../https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 
 
@@ -890,6 +890,9 @@ h6,
 #header3-2p .mbr-section-title,
 #header3-2p .mbr-section-subtitle {
   text-align: center;
+}
+#content1-5l P {
+  color: #c0a375;
 }
 #social-buttons4-2u .mbr-section-title,
 #social-buttons4-2u .btn-social {
