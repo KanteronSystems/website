@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "awardsandmedia.html",
+    "currentPage": "team.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -2872,7 +2872,7 @@
           },
           "title1": "Raminderpal Singh, PhD",
           "subtitle1": "Strategic Advisor 🇬🇧",
-          "caption1": "Vice-President at Eagle Genomics; former VC at 3iGroup; Genomic Medicine Business Dev. &amp; Strategy Lead at IBM Research.",
+          "caption1": "Former Vice-President at Eagle Genomics; VC at 3iGroup; Genomic Medicine Business Dev. &amp; Strategy Lead at IBM Research.",
           "button1": "<a data-app-btn=\"true\" href=\"https://uk.linkedin.com/in/raminderpalsingh123\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/raminderpalsingh123</a>",
           "media2": {
             "image": {
