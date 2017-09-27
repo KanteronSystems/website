@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "index.html",
+    "currentPage": "team.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -2711,7 +2711,7 @@
             }
           },
           "title3": "David Garcia, PhD",
-          "subtitle3": "Head of Medical Imaging 🇪🇸",
+          "subtitle3": "(from next Monday) Head of Medical Imaging 🇪🇸",
           "caption3": "A decade of international medical imaging expertise.",
           "button3": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/david-garcía-juan-phd-5206ab10\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/david-garcía-juan-phd-5206ab10<br></a>",
           "media4": {
