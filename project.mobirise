@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "index.html",
+    "currentPage": "team.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -2588,14 +2588,13 @@
           "button2": "<a data-app-btn=\"true\" href=\"http://es.linkedin.com/in/juantatay/es\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/juantatay</a> <a data-app-btn=\"true\" href=\"https://twitter.com/silta_dixIT\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>/juantatay</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/thomas-449x449.jpg",
+              "src": "@PROJECT_PATH@/assets/images/thomasvargozky1mar17-600x600.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "https://www.linkedin.com/in/thomas-vargoczky-0a341030/",
               "alt": "Thomas",
-              "title": "",
-              "linkInNewWindow": true
+              "title": ""
             }
           },
           "title3": "Thomas Vargoczky",
