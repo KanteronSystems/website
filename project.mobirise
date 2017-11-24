@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "contact.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -149,16 +149,16 @@
             "timeout": 5,
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/tumorboards-2000x709.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "NEXT LEVEL CARE COORDINATION",
+                "title": "PRECISION MEDICINE <br>Platform",
                 "showText": true,
-                "text": "Multidisciplinary Teams (MDT), Telemedicine...",
+                "text": "NEXT LEVEL CARE COORDINATION<br>Multidisciplinary Teams (MDT), Telemedicine...",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
               },
@@ -177,7 +177,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2017-01-17-at-18-2000x835.png",
                 "playVideo": false,
                 "videoUrl": "https://youtu.be/9FFgso1Zq-s",
@@ -3351,11 +3351,11 @@
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ingrammicro-logo-600x115.png",
+              "src": "@PROJECT_PATH@/assets/images/awslogo-380x186.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "https://www.ingrammicro.com",
+              "link": "https://www.aws.com",
               "alt": "",
               "title": "",
               "linkInNewWindow": true
@@ -4223,7 +4223,7 @@
           },
           "text1": "<h3><b>EUROPE:</b></h3><p><br></p><p><b style=\"font-size: 1.07rem;\">SPAIN – HEADQUARTERS: <br>KANTERON SYSTEMS S.L.U.</b><br></p><p>Mail: P.O. Box 123, Puçol 46530 (Valencia)</p><p>Location: Calle Espartar 15, Urb. Monasterios – Puçol 46500 Sagunto – Valencia</p><p>Tel: (+34) 963312287</p><p><br></p><p>Madrid office:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p><p><br></p><p><b>UK UNITED KINGDOM – <br>LONDON: KANTERON SYSTEMS UK, LTD.</b></p><p>TechHub @ Google Campus</p><p>4-5 Bonhill Street</p><p>London EC2A 4BX</p><p>Tel: (+44) 07736-881820</p>",
           "text2": "<h3><b>LATAM</b>:</h3><p><br></p><p><b>CHILE – SANTIAGO</b>: <a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>:</p><p>colombia@kanteron.com</p><p>Av Calle 19 No. 4-71 Ofc 231 Ctro Bta., Bogota&nbsp;</p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>MEXICO – MEXICO DC</b>: <a href=\"http://ceurac.com/\" target=\"_blank\">Reliable SA de CV</a></p><p>Parque de Los Remedios 14, El Parque, 53398 Naucalpan de Juárez, Mexico</p><p>Tel: (+52) 55 5358 7001</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asunción</p><p>SAC: +595 21 248 7000</p><p><br></p><p><b>PERU – LIMA</b>: <a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
-          "text3": "<h3><b>NORTHAMERICA:</b></h3><p><br></p><p><span style=\"font-size: 1.07rem;\"><b>USA – INDIANA:&nbsp;</b></span></p><p><span style=\"font-size: 1.07rem;\">1005 W. McKay Rd.</span></p><p><span style=\"font-size: 1.07rem;\">Shelbyville, IN 46176</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+1) 773-358-229276</span><br></p>"
+          "text3": "<h3><b>NORTHAMERICA:</b></h3><p><br></p><p><span style=\"font-size: 1.07rem;\"><b>USA – INDIANA:&nbsp;</b></span></p><p><span style=\"font-size: 1.07rem;\">1005 W. McKay Rd.</span></p><p><span style=\"font-size: 1.07rem;\">Shelbyville, IN 46176</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+1) 773-358-2292</span><br></p>"
         },
         {
           "_params": {
@@ -4254,7 +4254,7 @@
           "_anchor": "htmlblock-block-4c",
           "_params": {
             "blockTitle": "",
-            "HTMLCode": "<style>\n    .google-maps {\n        position: relative;\n        padding-bottom: 75%; // This is the aspect ratio\n        height: 0;\n        overflow: hidden;\n    }\n    .google-maps iframe {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100% !important;\n        height: 100% !important;\n    }\n</style>\n\n<div class=\"google-maps\">\n    <iframe src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" width=\"640\" height=\"480\" frameborder=\"0\" style=\"border:0\"></iframe>\n</div>",
+            "HTMLCode": "<style>\n    .google-maps {\n        position: relative;\n        padding-bottom: 75%; // This is the aspect ratio\n        height: 0;\n        overflow: hidden;\n    }\n    .google-maps iframe {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100% !important;\n        height: 100% !important;\n    }\n</style>\n\n<div class=\"google-maps\">\n    <iframe src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" frameborder=\"0\" style=\"border:0\"></iframe>\n</div>",
             "extEdit": false,
             "paddingTop": "0",
             "bgImageRadio": false,
@@ -4268,7 +4268,7 @@
           },
           "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
           "blockTitle": "",
-          "HTMLCode": "<style>\n    .google-maps {\n        position: relative;\n        padding-bottom: 75%; // This is the aspect ratio\n        height: 0;\n        overflow: hidden;\n    }\n    .google-maps iframe {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100% !important;\n        height: 100% !important;\n    }\n</style>\n\n<div class=\"google-maps\">\n    <iframe src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" width=\"640\" height=\"480\" frameborder=\"0\" style=\"border:0\"></iframe>\n</div>"
+          "HTMLCode": "<style>\n    .google-maps {\n        position: relative;\n        padding-bottom: 75%; // This is the aspect ratio\n        height: 0;\n        overflow: hidden;\n    }\n    .google-maps iframe {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100% !important;\n        height: 100% !important;\n    }\n</style>\n\n<div class=\"google-maps\">\n    <iframe src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" frameborder=\"0\" style=\"border:0\"></iframe>\n</div>"
         },
         {
           "_inherit": "social-buttons2",
