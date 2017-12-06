@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -29,7 +29,7 @@
     "globalfooter": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 243,
-    "versionPublish": "4.3.0",
+    "versionPublish": "4.5.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
@@ -194,58 +194,6 @@
           },
           "_anchor": "slider-2",
           "articleLayout": false
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/rsna-2017-logo-with-dates-531x192.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "RSNA: visit us at Google booth <br>8161 Hall B",
-          "text": "Visit us at Google booth 8161 Hall B",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"http://www.expocad.com/host/fx/rsna/rsna17/exfx.html?zoomto=8161#floorplan\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MAP</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-6o"
         },
         {
           "_inherit": "msg-box5",
@@ -4221,9 +4169,14 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text1": "<h3><b>EUROPE:</b></h3><p><br></p><p><b style=\"font-size: 1.07rem;\">SPAIN – HEADQUARTERS: <br>KANTERON SYSTEMS S.L.U.</b><br></p><p>Mail: P.O. Box 123, Puçol 46530 (Valencia)</p><p>Location: Calle Espartar 15, Urb. Monasterios – Puçol 46500 Sagunto – Valencia</p><p>Tel: (+34) 963312287</p><p><br></p><p>Madrid office:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p><p><br></p><p><b>UK UNITED KINGDOM – <br>LONDON: KANTERON SYSTEMS UK, LTD.</b></p><p>TechHub @ Google Campus</p><p>4-5 Bonhill Street</p><p>London EC2A 4BX</p><p>Tel: (+44) 07736-881820</p>",
-          "text2": "<h3><b>LATAM</b>:</h3><p><br></p><p><b>CHILE – SANTIAGO</b>: <a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>:</p><p>colombia@kanteron.com</p><p>Av Calle 19 No. 4-71 Ofc 231 Ctro Bta., Bogota&nbsp;</p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>MEXICO – MEXICO DC</b>: <a href=\"http://ceurac.com/\" target=\"_blank\">Reliable SA de CV</a></p><p>Parque de Los Remedios 14, El Parque, 53398 Naucalpan de Juárez, Mexico</p><p>Tel: (+52) 55 5358 7001</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asunción</p><p>SAC: +595 21 248 7000</p><p><br></p><p><b>PERU – LIMA</b>: <a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
-          "text3": "<h3><b>NORTHAMERICA:</b></h3><p><br></p><p><span style=\"font-size: 1.07rem;\"><b>USA – INDIANA:&nbsp;</b></span></p><p><span style=\"font-size: 1.07rem;\">1005 W. McKay Rd.</span></p><p><span style=\"font-size: 1.07rem;\">Shelbyville, IN 46176</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+1) 773-358-2292</span><br></p>"
+          "text1": "<h3><b>EUROPE:</b></h3><p><br></p><p><b style=\"font-size: 1.07rem;\">SPAIN – HEADQUARTERS</b><span style=\"font-size: 1.07rem;\">:</span><b style=\"font-size: 1.07rem;\"> <br><i>KANTERON SYSTEMS S.L.U.</i></b><br></p><p><i>Mail</i>: P.O. Box 123, Puçol 46530 (Valencia)</p><p><i>Location</i>: Calle Espartar 15, Urb. Monasterios – Puçol 46500 Sagunto – Valencia</p><p>Tel: (+34) 963312287</p><p><br></p><p><b>Madrid</b> office:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p><p><br></p><p><b>UNITED KINGDOM – </b><br><b>LONDON</b>:<b> </b><br><i>Kanteron Systems UK, Ltd.</i></p><p>TechHub @ Google Campus</p><p>4-5 Bonhill Street</p><p>London EC2A 4BX</p><p>Tel: (+44) 07736-881820</p>",
+          "text2": "<h3><b>LATAM</b>:</h3><p><br></p><p><b>CHILE – SANTIAGO</b>: <br><a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>: <br><i>Kanteron Systems</i></p><p>colombia@kanteron.com</p><p>Av Calle 19 No. 4-71 Ofc 231 Ctro Bta., Bogota&nbsp;</p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>MEXICO – MEXICO DF</b>: <br><a href=\"http://ceurac.com/\" target=\"_blank\">Reliable SA de CV</a></p><p>Parque de Los Remedios 14, El Parque, 53398 Naucalpan de Juarez, Mexico</p><p>Tel: (+52) 55 5358 7001</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <br><a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asuncion</p><p>Tel.: +595 21 248 7000</p><p><br></p><p><b>PERU – LIMA</b>: <br><a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
+          "text3": "<h3><b>ASIA - PACIFIC:</b></h3><p><br></p><p><span style=\"font-size: 1.07rem;\"><b>AUSTRALIA – SIDNEY</b>:&nbsp;<br><i>Kanteron Systems</i></span><br></p><p><span style=\"font-size: 1.07rem;\">25 William Edward St</span></p><p><span style=\"font-size: 1.07rem;\">Longueville, NSW 2066</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+61) 413481686</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p><span style=\"font-size: 1.07rem;\"><b>SINGAPORE – SINGAPORE</b>: <br><i><a href=\"http://mandarinoptomedic.com/\" target=\"_blank\">Mandarin Opto-Medic Co Pte Ltd</a></i></span></p><p><span style=\"font-size: 1.07rem;\">30 Kaki Bukit Crescent,</span></p><p><span style=\"font-size: 1.07rem;\">Kaki Bukit Techpark 1,</span></p><p><span style=\"font-size: 1.07rem;\">Singapore 416261</span></p><p><span style=\"font-size: 1.07rem;\">Tel: 65 6747 8777</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p><span style=\"font-size: 1.07rem;\"><b>MALAYSIA – KUALA LUMPUR</b>: <br><i><a href=\"http://mandarinoptomedic.com/\" target=\"_blank\">Mandarin Opto-Medic Sdn. Bhd.</a></i></span></p><p><span style=\"font-size: 1.07rem;\">No 1 &amp; 3, Jalan Puteri 7/15,</span></p><p><span style=\"font-size: 1.07rem;\">Bandar Puteri Puchong,</span></p><p><span style=\"font-size: 1.07rem;\">47100 Selangor</span></p><p><span style=\"font-size: 1.07rem;\">Tel: 60 03 80512933</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p><span style=\"font-size: 1.07rem;\"><b>INDONESIA - JAKARTA</b>: <br><i><a href=\"http://mandarinoptomedic.com/\" target=\"_blank\">PT. Katamata Optomedik</a></i></span></p><p><span style=\"font-size: 1.07rem;\">Delta Building Blk A 20-23</span></p><p><span style=\"font-size: 1.07rem;\">Jl Suryapranoto No. 1</span></p><p><span style=\"font-size: 1.07rem;\">Jakarta 10160</span></p><p><span style=\"font-size: 1.07rem;\">Tel: 62 21 3808308</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p><span style=\"font-size: 1.07rem;\"><b>PHILIPPINES – MANILA</b>: <br><i><a href=\"http://mandarinoptomedic.com/\" target=\"_blank\">Medlight Mandarin Opto-Medic Inc</a></i></span></p><p><span style=\"font-size: 1.07rem;\">11-B April Extension, Congressional Ave,</span></p><p><span style=\"font-size: 1.07rem;\">Quezon City - 1106</span></p><p><span style=\"font-size: 1.07rem;\">Tel: 632 9294784&nbsp;<br></span><br></p>",
+          "_styles": {
+            "P": {
+              "font-size": "17px"
+            }
+          }
         },
         {
           "_params": {
@@ -4231,7 +4184,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text1": "<h3><b>ASIA-PACIFIC:</b></h3><p><br></p><p><b style=\"font-size: 1.07rem;\">AUSTRALIA – NSW:&nbsp;</b><br></p><p><span style=\"font-size: 1.07rem;\">25 William Edward St</span><br></p><p>Longueville, NSW 2066</p><p>Australia</p><p>Tel: (+61) 413481686</p>",
+          "text1": "<h3><b>NORTHAMERICA:</b></h3><p><span style=\"font-size: 1.07rem;\"><b>USA – INDIANA</b>:&nbsp;<br><i>Kanteron Systems USA, Inc.</i></span></p><p><span style=\"font-size: 1.07rem;\">1005 W. McKay Rd.</span></p><p><span style=\"font-size: 1.07rem;\">Shelbyville, IN 46176</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+1) 773-358-2292&nbsp;</span><br></p>",
           "text2": "<h3>MIDDLE EAST:</h3><p><br></p><p><b>TBA January 2018</b></p><p><br></p><p><br></p>",
           "text3": "<h3><br></h3><p><br></p><p><br></p><p><br></p>",
           "_tags": [
