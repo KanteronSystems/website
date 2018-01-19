@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "team.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -33,9 +33,7 @@
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
-    "cookiesAlert": "",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -2445,7 +2443,7 @@
             }
           },
           "title1": "Jorge&nbsp;Cortell",
-          "subtitle1": "Founder &amp; CEO (UK)",
+          "subtitle1": "Founder &amp; CEO 🇬🇧",
           "caption1": "Serial entrepreneur (x8); Oxford (Computing) and MIT (Entrepreneurship); European Commission Expert on Social Investment;&nbsp;<a href=\"https://news.microsoft.com/en-gb/features/one-mans-quest-revolutionise-cancer-treatment/\" target=\"_blank\">It all started out of love</a>.&nbsp;",
           "button1": "<a data-app-btn=\"true\" href=\"http://www.linkedin.com/in/jcortell/en\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/jcortell</a> <a data-app-btn=\"true\" href=\"https://twitter.com/jorgecortell\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>@jorgecortell</a>  ",
           "media2": {
@@ -2454,14 +2452,14 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "https://www.linkedin.com/in/johnmemarian",
-              "alt": "John",
+              "link": "",
+              "alt": "",
               "title": "",
-              "linkInNewWindow": true
+              "linkInNewWindow": false
             }
           },
           "title2": "John Memarian",
-          "subtitle2": "President &amp; CCO (USA)",
+          "subtitle2": "President &amp; CCO 🇺🇸",
           "caption2": "Formerly: President of Merge (acquired by IBM for $1B); Exec. at GE; Prod. Specialist at McKesson; Dir. at Leidos; VP at Mach 7; Exec. at Agilent.",
           "button2": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/johnmemarian\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/johnmemarian</a> ",
           "media3": {
@@ -2477,7 +2475,7 @@
             }
           },
           "title3": "Santiago Gala",
-          "subtitle3": "CTO (Spain)",
+          "subtitle3": "CTO 🇪🇸",
           "caption3": "Formerly: Leader of AI for European Space Agency; Chairman Apache Software Foundation portals; Consultan at Telefonica; R&amp;D Manager at Indra.",
           "button3": "<a data-app-btn=\"true\" href=\"https://es.linkedin.com/in/sgala\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/sgala</a> <a data-app-btn=\"true\" href=\"https://twitter.com/gala_santiago\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>/gala_santiago</a> ",
           "media4": {
@@ -2570,7 +2568,7 @@
             }
           },
           "title1": "Luis Alario",
-          "subtitle1": "CIO (Spain)",
+          "subtitle1": "CIO 🇪🇸",
           "caption1": "PACS-RIS and HL7 expert.",
           "button1": "<a data-app-btn=\"true\" href=\"http://es.linkedin.com/pub/luis-alario/92/556/440\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/luis-alario</a>",
           "media2": {
@@ -2586,7 +2584,7 @@
             }
           },
           "title2": "Juan Tatay",
-          "subtitle2": "COO (Spain)",
+          "subtitle2": "COO 🇪🇸",
           "caption2": "MIT (EDP), Cambridge (Ignite); Guest lecturer.",
           "button2": "<a data-app-btn=\"true\" href=\"http://es.linkedin.com/in/juantatay/es\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/juantatay</a> <a data-app-btn=\"true\" href=\"https://twitter.com/silta_dixIT\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>/juantatay</a>",
           "media3": {
@@ -2601,7 +2599,7 @@
             }
           },
           "title3": "Thomas Vargoczky",
-          "subtitle3": "Director Asia-Pacific (Australia)",
+          "subtitle3": "Director Asia-Pacific 🇦🇺",
           "caption3": "Formerly: Director Watson Health Imaging; Siemens.",
           "button3": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/pub/eva-panadero-peris/a5/269/a86\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/thomas-vargoczky-0a341030</a>",
           "media4": {
@@ -2676,12 +2674,13 @@
               "width": 600,
               "active": true,
               "link": "https://www.linkedin.com/in/linuxsystemadministrator/",
-              "alt": "Pablo",
-              "title": ""
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
             }
           },
           "title1": "Pablo Hinojosa",
-          "subtitle1": "Head of Tech Support (Spain)",
+          "subtitle1": "Head of Tech Support 🇪🇸",
           "caption1": "Over a lustrum of experience in tech support.",
           "button1": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/linuxsystemadministrator/\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/linuxsystemadministrator</a>",
           "media2": {
@@ -2696,7 +2695,7 @@
             }
           },
           "title2": "Eva Panadero",
-          "subtitle2": "PM &amp; Dev. &nbsp;(Spain)",
+          "subtitle2": "PM &amp; Dev. 🇪🇸",
           "caption2": "HIS expert.",
           "button2": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/pub/eva-panadero-peris/a5/269/a86\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/eva-panadero-peris</a>",
           "media3": {
@@ -2705,14 +2704,13 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "https://www.linkedin.com/in/david-garc%C3%ADa-juan-phd-5206ab10",
+              "link": "",
               "alt": "David",
-              "title": "",
-              "linkInNewWindow": true
+              "title": ""
             }
           },
           "title3": "David Garcia, PhD",
-          "subtitle3": "Head of Medical Imaging (Spain)",
+          "subtitle3": "Head of Medical Imaging 🇪🇸",
           "caption3": "A decade of international medical imaging expertise.",
           "button3": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/david-garcía-juan-phd-5206ab10\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/david-garcía-juan-phd-5206ab10<br></a>",
           "media4": {
@@ -2781,20 +2779,19 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "https://www.linkedin.com/in/gala-egea-ma%C3%B1%C3%B3-09448070/",
+              "link": "https://www.linkedin.com/in/linuxsystemadministrator/",
               "alt": "Gala",
-              "title": "",
-              "linkInNewWindow": true
+              "title": ""
             }
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/alien-450x450.png",
+              "src": "@PROJECT_PATH@/assets/images/ruben-600x600.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "https://www.linkedin.com",
-              "alt": "",
+              "link": "https://www.linkedin.com/in/rhernandis/",
+              "alt": "Ruben",
               "title": "",
               "linkInNewWindow": true
             }
@@ -2805,10 +2802,10 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "https://www.linkedin.com/in/edwinsmithvelandia/",
-              "alt": "Edwin",
+              "link": "",
+              "alt": "",
               "title": "",
-              "linkInNewWindow": true
+              "linkInNewWindow": false
             }
           },
           "media4": {
@@ -2836,13 +2833,13 @@
             }
           },
           "title1": "Gala Egea",
-          "subtitle1": "Legal &amp; Compliance (Spain)",
+          "subtitle1": "Legal &amp; Compliance 🇪🇸",
           "caption1": "Years of experience as business lawyer.",
-          "title2": "Juan Ramon Manyas",
-          "subtitle2": "Admin. &amp; Marketing (Spain)",
-          "caption2": "Valencia University.",
+          "title2": "Ruben Hernandis",
+          "subtitle2": "Dev. 🇪🇸",
+          "caption2": "National Institute of Cybersecurity.",
           "title3": "Edwin Smith",
-          "subtitle3": "Latam Tech Support (Colombia)",
+          "subtitle3": "Latam Tech Support 🇨🇴",
           "caption3": "Almost a decade of experience in tech support.",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
@@ -2853,8 +2850,8 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/gala-egea-ma%C3%B1%C3%B3-09448070/\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/gala-egea-mañó-09448070</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/linuxsystemadministrator/\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/gala-egea-mañó-09448070</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/rhernandis/\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/rhernandis</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/edwinsmithvelandia/\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/edwinsmithvelandia</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -2960,7 +2957,7 @@
             }
           },
           "title1": "Raminderpal Singh, PhD",
-          "subtitle1": "Strategic Advisor (UK)",
+          "subtitle1": "Strategic Advisor 🇬🇧",
           "caption1": "Former Vice-President at Eagle Genomics; VC at 3iGroup; Genomic Medicine Business Dev. &amp; Strategy Lead at IBM Research.",
           "button1": "<a data-app-btn=\"true\" href=\"https://uk.linkedin.com/in/raminderpalsingh123\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/raminderpalsingh123</a>",
           "media2": {
@@ -2976,7 +2973,7 @@
             }
           },
           "title2": "Szilard Voros, PhD",
-          "subtitle2": "Clinical-Scientific Advisor (USA)",
+          "subtitle2": "Clinical-Scientific Advisor 🇺🇸",
           "caption2": "Founder &amp; CEO Global Genomics Group; A. Prof. and Dir. of Cardiovascular MR and CT at Stony Brook Univ. Med. Center, State Univ. of NY.",
           "button2": "<a data-app-btn=\"true\" href=\"https://en.wikipedia.org/wiki/Szilard_Voros\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-wikipedia mbr-iconfont mbr-iconfont-btn\"></span>/Szilard_Voros</a>",
           "media3": {
@@ -2992,7 +2989,7 @@
             }
           },
           "title3": "Manuel Perez Alonso, PhD",
-          "subtitle3": "Genomics Advisor (Spain)",
+          "subtitle3": "Genomics Advisor 🇪🇸",
           "caption3": "Director Postgraduate program Clinical Genomics Valencia Univ.; Founder of Institute of Genomic Medicine; Editor-in-chief Medical Genomic News.",
           "button3": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/manuelperezalonso/\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span>/manuelperezalonso/</a>",
           "media4": {
@@ -4241,7 +4238,7 @@
             "bgColor": "#fff"
           },
           "text1": "<h3><b>NORTHAMERICA:</b></h3><p><span style=\"font-size: 1.07rem;\"><b>USA – INDIANA</b>:&nbsp;<br><i>Kanteron Systems USA, Inc.</i></span></p><p><span style=\"font-size: 1.07rem;\">1005 W. McKay Rd.</span></p><p><span style=\"font-size: 1.07rem;\">Shelbyville, IN 46176</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+1) 773-358-2292&nbsp;</span><br></p>",
-          "text2": "<h3>MIDDLE EAST:</h3><p><b style=\"font-size: 1.07rem;\">SAUDI ARABIA, Kuwait, Qatar, United Arab Emirates, Oman, Bahrain, Egypt, Jordan and Turkey:&nbsp;</b><br></p><p><i>Micro Technology Company (MTC)</i></p><p>PO Box 85407</p><p>Riyadh 11691, Arabia Saudí</p><p><br></p><p><br></p>",
+          "text2": "<h3>MIDDLE EAST:</h3><p><br></p><p><b>TBA January 2018</b></p><p><br></p><p><br></p>",
           "text3": "<h3><br></h3><p><br></p><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
