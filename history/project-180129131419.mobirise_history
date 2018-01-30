@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "contact.html",
+    "currentPage": "team.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -29,7 +29,7 @@
     "globalfooter": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 244,
-    "versionPublish": "4.6.2",
+    "versionPublish": "4.6.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
@@ -4241,7 +4241,7 @@
             "bgColor": "#fff"
           },
           "text1": "<h3><b>NORTHAMERICA:</b></h3><p><span style=\"font-size: 1.07rem;\"><b>USA – INDIANA</b>:&nbsp;<br><i>Kanteron Systems USA, Inc.</i></span></p><p><span style=\"font-size: 1.07rem;\">1005 W. McKay Rd.</span></p><p><span style=\"font-size: 1.07rem;\">Shelbyville, IN 46176</span></p><p><span style=\"font-size: 1.07rem;\">Tel: (+1) 773-358-2292&nbsp;</span><br></p>",
-          "text2": "<h3>MIDDLE EAST:</h3><p><b style=\"font-size: 1.07rem;\">SAUDI ARABIA, Kuwait, Qatar, United Arab Emirates, Oman, Bahrain, Egypt, Jordan and Turkey:&nbsp;</b><br></p><p><i><a href=\"http://microtechnolgy.com/index.html\" target=\"_blank\">Micro Technology Company (MTC)</a></i></p><p>PO Box 85407</p><p>Riyadh 11691, Arabia Saudí</p><p><br></p><p><br></p>",
+          "text2": "<h3>MIDDLE EAST:</h3><p><b style=\"font-size: 1.07rem;\">SAUDI ARABIA, Kuwait, Qatar, United Arab Emirates, Oman, Bahrain, Egypt, Jordan and Turkey:&nbsp;</b><br></p><p><i>Micro Technology Company (MTC)</i></p><p>PO Box 85407</p><p>Riyadh 11691, Arabia Saudí</p><p><br></p><p><br></p>",
           "text3": "<h3><br></h3><p><br></p><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
