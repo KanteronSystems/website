@@ -409,7 +409,7 @@ h6,
   color: #c0a375;
 }
 .scrollToTop_wraper {
-  opacity: 0 !important;
+  display: none;
 }
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
