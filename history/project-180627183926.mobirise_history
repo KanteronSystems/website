@@ -34,6 +34,8 @@
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
     "cookiesAlert": "Notice:\r\nThis website or its third-party tools use cookies, which are necessary to its functioning and required to achieve the purposes illustrated in the cookie policy. If you want to know more or withdraw your consent to all or some of the cookies, please refer to our <a href='policy.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.\r\nBy closing this banner, scrolling this page, clicking a link or continuing to browse otherwise, you agree to the use of cookies.",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "gdpr": "Notice:\r\nThis website or its third-party tools use cookies, which are necessary to its functioning and required to achieve the purposes illustrated in the cookie policy. If you want to know more or withdraw your consent to all or some of the cookies, please refer to our <a href='policy.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.\r\nBy closing this banner, scrolling this page, clicking a link or continuing to browse otherwise, you agree to the use of cookies.",
     "siteUrl": "undefined",
     "siteFonts": []
@@ -62,7 +64,7 @@
             "paddingTop": "4",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1474x1080.jpg",
+            "bgImage": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/mbr-1474x1080.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -3392,7 +3394,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/euunicorn-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/euunicorn-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3403,7 +3405,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/impactchallenge-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/impactchallenge-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3414,7 +3416,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/digitalheroes-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/digitalheroes-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3425,7 +3427,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/bestceo-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/bestceo-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3436,7 +3438,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/gamechangers-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/gamechangers-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
