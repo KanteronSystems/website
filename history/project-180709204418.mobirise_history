@@ -3871,12 +3871,9 @@
             "Theme"
           ],
           "_name": "map1",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" data-rv-view=\"91\">\n    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/d/embed?mid=1tOEzfaR0s5e3IrxuSDYQxr-4VVEe-jcZ\" allowfullscreen=\"\"></iframe></div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" data-rv-view=\"91\">\n    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" allowfullscreen=\"\"></iframe></div>\n</section>",
           "_customTemplate": true,
-          "_anchor": "map1-6y",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ""
+          "_anchor": "map1-6y"
         },
         {
           "_tags": [
