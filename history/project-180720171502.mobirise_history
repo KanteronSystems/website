@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "testimonials.html",
+    "currentPage": "awardsandmedia.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -6944,6 +6944,22 @@
           },
           "title": "SOME CUSTOMER TESTIMONIALS",
           "subtitle": "Many more testimonials <a href=\"awardsandmedia.html\">BELOW</a>."
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" data-rv-view=\"91\">\n    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/d/embed?mid=19bCaKugWIuBDynXg1vAjGyJqmTE\" allowfullscreen=\"\"></iframe></div>\n</section>",
+          "_customTemplate": true,
+          "_anchor": "map1-6w"
         },
         {
           "_tags": [
