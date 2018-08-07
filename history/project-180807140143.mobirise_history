@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "company.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1723,7 +1723,7 @@
           },
           "title3": "ABOUT KANTERON SYSTEMS",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Kanteron Systems is a privately held Healthcare IT – Biomedical Informatics company founded in 2005 that helps healthcare providers manage imaging and genomic data effectively for precision medicine applications at the point of care.<br><br>With offices and subsidiaries in London (UK), Madrid (Spain), and European HQ in Valencia (Spain), Kanteron Systems' solution has already been deployed over 500 times in 12 countries, at some of the world's largest healthcare networks like the NHS in the UK, ISSSTE in Mexico, or EsSalud in Peru.<br>",
+          "caption3": "Kanteron Systems is a privately held Healthcare IT – Biomedical Informatics company founded in 2005 that helps healthcare providers manage imaging and genomic data effectively for precision medicine applications at the point of care.<br><br>With offices and subsidiaries in London (UK), Madrid (Spain), and European HQ in Valencia (Spain), Kanteron Systems' solution has already been deployed over 500 times in 12 countries, at some of the world's largest healthcare networks like the American College of Radiology in the USA, the NHS in the UK, Seguridad Social in Spain, ISSSTE in Mexico, or EsSalud in Peru.<br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
