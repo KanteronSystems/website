@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "index.html",
+    "currentPage": "company.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -347,7 +347,7 @@
               "name": "database",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "platform.html",
+              "link": "",
               "size": 0,
               "color": "#000000",
               "newWindow": false
@@ -364,7 +364,7 @@
               "name": "setting",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "platform.html",
+              "link": "",
               "size": 0,
               "color": "#000000",
               "newWindow": false
@@ -381,7 +381,7 @@
               "name": "drag-n-drop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "platform.html",
+              "link": "",
               "size": 0,
               "color": "#000000",
               "newWindow": false
@@ -398,7 +398,7 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "platform.html",
+              "link": "",
               "size": 0,
               "color": "#000000",
               "newWindow": false
@@ -755,7 +755,7 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "like",
+              "name": "growing-chart",
               "family": "MobiriseIcons",
               "active": true,
               "link": "partnersandquality.html",
@@ -772,7 +772,7 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "bookmark",
+              "name": "target",
               "family": "MobiriseIcons",
               "active": true,
               "link": "awardsandmedia.html",
@@ -3906,7 +3906,7 @@
             "bgColor": "#fff"
           },
           "text1": "<h3><b>EUROPE:</b></h3><p><b style=\"font-size: 1.07rem;\">SPAIN – HEADQUARTERS</b><span style=\"font-size: 1.07rem;\">:</span><b style=\"font-size: 1.07rem;\"> <br><i>KANTERON SYSTEMS S.L.U.</i></b><br></p><p>Catedratico Agustin Escardino 9<br>University of Valencia Science Park<br>46980 Paterna (Valencia)</p><p>Tel: (+34) 963312287</p><p><br></p><p><b>Madrid</b>:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p><p><br></p><p><b>UNITED KINGDOM – </b><br><b>LONDON</b>:<b> </b><br><i>Kanteron Systems UK, Ltd.</i></p><p>GT UK LLP&nbsp;</p><p>4 Hardman Sq. Spinningfields</p><p>Manchester M3 3EB (UK)</p>",
-          "text2": "<h3><b>SOUTHAMERICA</b>:</h3><p><b>BRAZIL – SAO PAULO:&nbsp;</b></p><p><i><a href=\"http://konimagem.com.br/\" target=\"_blank\">Konimagem Comercial Ltda.</a></i></p><p>R. Maria Casali Bueno, 57 - Mandaqui, São Paulo - SP, 02408-050, Brazil</p><p><br></p><p><i>Kanteron Systems</i></p><p>Sao Paulo, SP - 05642-020</p><p>Tel: (+55) 11 3565 0881</p><p><b><br></b></p><p><b>CHILE – SANTIAGO</b>: <br><a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>: <br><i>Kanteron Systems</i></p><p>Bogota&nbsp;<br></p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <br><a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asuncion</p><p>Tel.: +595 21 248 7000</p><p><br></p><p><b>PERU – LIMA</b>: <br><a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
+          "text2": "<h3><b>SOUTHAMERICA</b>:</h3><p><b>BRAZIL – SAO PAULO:&nbsp;</b></p><p><i>Kanteron Systems</i></p><p>Sao Paulo, SP - 05642-020</p><p>Tel: (+55) 11 3565 0881</p><p><b><br></b></p><p><b>CHILE – SANTIAGO</b>: <br><a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>: <br><i>Kanteron Systems</i></p><p>Bogota&nbsp;<br></p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <br><a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asuncion</p><p>Tel.: +595 21 248 7000</p><p><br></p><p><b>PERU – LIMA</b>: <br><a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
           "text3": "<h3>NORTHAMERICA:</h3><div><b>USA – INDIANA</b>:&nbsp;</div><div><i>Kanteron Systems USA, Inc.</i></div><div>Indianapolis, IN 46176</div><div>Tel: (+1) 773-358-2292&nbsp;</div><div><br></div><div><b>MEXICO - DF</b>:&nbsp;</div><div><a href=\"http://reliable.com.mx/\" target=\"_blank\">Reliable S.A. de C.V.</a></div><div>Parque de los Remedios No. 14</div><div>Col. El Parque CP. 53398,</div><div>Naucalpan, Edo. De Mex.</div><div>Tel: 01-55-53587001</div><p><br></p>",
           "_styles": {
             "P": {
