@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "genomics.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -28,12 +28,14 @@
     "noImageResize": "",
     "globalfooter": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 278,
+    "uniqCompNum": 277,
     "versionPublish": "4.7.6",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
     "cookiesAlert": "Notice:\r\nThis website or its third-party tools use cookies, which are necessary to its functioning and required to achieve the purposes illustrated in the cookie policy. If you want to know more or withdraw your consent to all or some of the cookies, please refer to our <a href='policy.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.\r\nBy closing this banner, scrolling this page, clicking a link or continuing to browse otherwise, you agree to the use of cookies.",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "gdpr": "Notice:\r\nThis website or its third-party tools use cookies, which are necessary to its functioning and required to achieve the purposes illustrated in the cookie policy. If you want to know more or withdraw your consent to all or some of the cookies, please refer to our <a href='policy.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.\r\nBy closing this banner, scrolling this page, clicking a link or continuing to browse otherwise, you agree to the use of cookies.",
     "siteUrl": "undefined",
     "siteFonts": []
@@ -62,7 +64,7 @@
             "paddingTop": "4",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1474x1080.jpg",
+            "bgImage": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/mbr-1474x1080.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -2520,7 +2522,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/200px-Flag_of_Spain.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://media.licdn.com/dms/image/C4E03AQHMfUUr6No7Fg/profile-displayphoto-shrink_800_800/0?e=1539216000&amp;v=beta&amp;t=UetFqs9k1TOdKyuEvuLa1bcsG_xYuTSuMyMldfRzXbo\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Alba Ordoñez</h1>\n      <div class=\"profileCard__subTitle\">Programmer</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Formerly: Indra and Everis.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://www.linkedin.com/in/albaord/\"><i class=\"fa fa-linkedin\"></i></a></li>\n  </ul>\n</div>",
+          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/200px-Flag_of_Spain.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://media.licdn.com/dms/image/C4E03AQHMfUUr6No7Fg/profile-displayphoto-shrink_800_800/0?e=1539216000&amp;v=beta&amp;t=UetFqs9k1TOdKyuEvuLa1bcsG_xYuTSuMyMldfRzXbo\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Alba Ordoñez</h1>\n      <div class=\"profileCard__subTitle\">Programmer</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Former Indra and everis.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://www.linkedin.com/in/albaord/\"><i class=\"fa fa-linkedin\"></i></a></li>\n  </ul>\n</div>",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Merriweather);\n@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #fff;\n  padding-top: 100px;\n}\n\n.profileCard {\n  margin: 0 auto;\n  padding-bottom: 60px;\n  width: 350px;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  overflow: hidden;\n  background-color: #fff;\n  position: relative;\n}\n.profileCard__imageWrap {\n  background-size: cover;\n  height: 100px;\n  width: 100%;\n  position: relative;\n  transition: height .3s ease-in;\n  will-change: height;\n}\n.profileCard__imageWrap:before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: rgba(51, 51, 51, 0.25);\n  z-index: 1;\n}\n.profileCard__location {\n  color: #fff;\n  z-index: 20;\n  position: absolute;\n  top: 5px;\n  right: 5px;\n}\n.profileCard__header {\n  text-align: left;\n  padding-left: 140px;\n  position: absolute;\n  bottom: -28px;\n  left: 0;\n  color: #fff;\n  padding-left: 140px;\n  z-index: 20;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__title {\n  margin: 0;\n  color: #fff;\n  font-size: 1.125em;\n  font-weight: 400;\n  font-family: 'Oswald';\n  font-weight: 400;\n  z-index: 10;\n  position: relative;\n  padding-bottom: 6px;\n}\n.profileCard__subTitle {\n  color: #999;\n  font-size: 0.875em;\n  padding-top: 12px;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__thumbWrap {\n  width: 110px;\n  height: 110px;\n  background-color: #fff;\n  border-radius: 5px;\n  padding: 3px;\n  position: absolute;\n  bottom: -55px;\n  left: 15px;\n  border-radius: 110px;\n  z-index: 10;\n  transition: -webkit-transform .3s linear;\n  transition: transform .3s linear;\n  transition: transform .3s linear, -webkit-transform .3s linear;\n  will-change: transform;\n}\n.profileCard__thumb {\n  width: 104px;\n  height: 104px;\n  display: block;\n  border-radius: 84px;\n}\n.profileCard__contentWrap {\n  padding-bottom: 0px;\n  min-height: 50px;\n  position: relative;\n}\n.profileCard__contentWrap::after {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  z-index: 20;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 10px 10px 10px;\n  border-color: transparent transparent #ffffff transparent;\n  -webkit-transform: translateY(10px);\n          transform: translateY(10px);\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  margin-left: -10px;\n}\n.profileCard__content {\n  padding: 20px 20px 0;\n  text-align: left;\n  line-height: 1.3;\n  font-size: 1em;\n  font-family: sans-serif;\n  font-size: 0.875em;\n  color: #666;\n  max-height: 0;\n  overflow: hidden;\n  -webkit-transform: translateY(-10%);\n          transform: translateY(-10%);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n  will-change: transform, opacity;\n  opacity: 0;\n  visibility: hidden;\n}\n.profileCard__content p {\n  margin: 0;\n}\n.profileCard__social {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  display: table;\n  border-top: 1px solid #ccc;\n  padding: 10px 0;\n}\n.profileCard__socialItem {\n  display: table-cell;\n  text-align: center;\n}\n.profileCard__socialLink {\n  color: #999;\n}\n.profileCard:hover .profileCard__imageWrap {\n  height: 150px;\n}\n.profileCard:hover .profileCard__contentWrap:after {\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.profileCard:hover .profileCard__content {\n  max-height: 200px;\n  opacity: 1;\n  visibility: visible;\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n}\n.profileCard:hover .profileCard__thumbWrap {\n  -webkit-transform: translateY(-70%);\n          transform: translateY(-70%);\n}\n.profileCard:hover .profileCard__header {\n  -webkit-transform: translateY(-110%);\n          transform: translateY(-110%);\n}\n.profileCard:hover .profileCard__subTitle {\n  color: #fff;\n  -webkit-transform: translateY(-10px);\n          transform: translateY(-10px);\n}\n",
           "alias": "code-editor",
           "_tags": [
@@ -2562,7 +2564,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/200px-Flag_of_Brazil.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://media.licdn.com/dms/image/C4E03AQH6hPGiJJnpAw/profile-displayphoto-shrink_800_800/0?e=1542240000&amp;v=beta&amp;t=x0HbPatShW12BWI4rTWxuvK_BQe3Ubg7zIm_S8tdJto\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Aldo Montes</h1>\n      <div class=\"profileCard__subTitle\">Director Brazil</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Formerly: VP LATAM MergeIBM, executive Agfa, Carestream.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://www.linkedin.com/in/aldomontes\"><i class=\"fa fa-linkedin\"></i></a></li>\n  </ul>\n</div>",
+          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/200px-Flag_of_Brazil.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://media.licdn.com/dms/image/C4E03AQH6hPGiJJnpAw/profile-displayphoto-shrink_200_200/0?e=1534982400&amp;v=beta&amp;t=vH0Ow_Nnp6qTx0KuWYdG-mVJpxDIsDa6o38GDhXnU9A\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Aldo Montes</h1>\n      <div class=\"profileCard__subTitle\">Director Brazil</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Formerly: VP LATAM MergeIBM, executive Agfa, Carestream.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://www.linkedin.com/in/aldomontes\"><i class=\"fa fa-linkedin\"></i></a></li>\n  </ul>\n</div>",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Merriweather);\n@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #fff;\n  padding-top: 100px;\n}\n\n.profileCard {\n  margin: 0 auto;\n  padding-bottom: 60px;\n  width: 350px;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  overflow: hidden;\n  background-color: #fff;\n  position: relative;\n}\n.profileCard__imageWrap {\n  background-size: cover;\n  height: 100px;\n  width: 100%;\n  position: relative;\n  transition: height .3s ease-in;\n  will-change: height;\n}\n.profileCard__imageWrap:before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: rgba(51, 51, 51, 0.25);\n  z-index: 1;\n}\n.profileCard__location {\n  color: #fff;\n  z-index: 20;\n  position: absolute;\n  top: 5px;\n  right: 5px;\n}\n.profileCard__header {\n  text-align: left;\n  padding-left: 140px;\n  position: absolute;\n  bottom: -28px;\n  left: 0;\n  color: #fff;\n  padding-left: 140px;\n  z-index: 20;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__title {\n  margin: 0;\n  color: #fff;\n  font-size: 1.125em;\n  font-weight: 400;\n  font-family: 'Oswald';\n  font-weight: 400;\n  z-index: 10;\n  position: relative;\n  padding-bottom: 6px;\n}\n.profileCard__subTitle {\n  color: #999;\n  font-size: 0.875em;\n  padding-top: 12px;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__thumbWrap {\n  width: 110px;\n  height: 110px;\n  background-color: #fff;\n  border-radius: 5px;\n  padding: 3px;\n  position: absolute;\n  bottom: -55px;\n  left: 15px;\n  border-radius: 110px;\n  z-index: 10;\n  transition: -webkit-transform .3s linear;\n  transition: transform .3s linear;\n  transition: transform .3s linear, -webkit-transform .3s linear;\n  will-change: transform;\n}\n.profileCard__thumb {\n  width: 104px;\n  height: 104px;\n  display: block;\n  border-radius: 84px;\n}\n.profileCard__contentWrap {\n  padding-bottom: 0px;\n  min-height: 50px;\n  position: relative;\n}\n.profileCard__contentWrap::after {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  z-index: 20;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 10px 10px 10px;\n  border-color: transparent transparent #ffffff transparent;\n  -webkit-transform: translateY(10px);\n          transform: translateY(10px);\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  margin-left: -10px;\n}\n.profileCard__content {\n  padding: 20px 20px 0;\n  text-align: left;\n  line-height: 1.3;\n  font-size: 1em;\n  font-family: sans-serif;\n  font-size: 0.875em;\n  color: #666;\n  max-height: 0;\n  overflow: hidden;\n  -webkit-transform: translateY(-10%);\n          transform: translateY(-10%);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n  will-change: transform, opacity;\n  opacity: 0;\n  visibility: hidden;\n}\n.profileCard__content p {\n  margin: 0;\n}\n.profileCard__social {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  display: table;\n  border-top: 1px solid #ccc;\n  padding: 10px 0;\n}\n.profileCard__socialItem {\n  display: table-cell;\n  text-align: center;\n}\n.profileCard__socialLink {\n  color: #999;\n}\n.profileCard:hover .profileCard__imageWrap {\n  height: 150px;\n}\n.profileCard:hover .profileCard__contentWrap:after {\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.profileCard:hover .profileCard__content {\n  max-height: 200px;\n  opacity: 1;\n  visibility: visible;\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n}\n.profileCard:hover .profileCard__thumbWrap {\n  -webkit-transform: translateY(-70%);\n          transform: translateY(-70%);\n}\n.profileCard:hover .profileCard__header {\n  -webkit-transform: translateY(-110%);\n          transform: translateY(-110%);\n}\n.profileCard:hover .profileCard__subTitle {\n  color: #fff;\n  -webkit-transform: translateY(-10px);\n          transform: translateY(-10px);\n}\n",
           "alias": "code-editor",
           "_tags": [
@@ -2658,7 +2660,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/200px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://cdn2.hubspot.net/hubfs/2869527/Imported_Blog_Media/Raminderpal_Singh_for_website.jpg?t=1525839744357\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Raminderpal Singh, PhD\n</h1>\n      <div class=\"profileCard__subTitle\">Strategic Advisor</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Formerly: Vice-President at Eagle Genomics; VC at 3iGroup; Genomic Medicine Business Dev. &amp; Strategy Lead at IBM Research.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://uk.linkedin.com/in/raminderpalsingh123\"><i class=\"fa fa-linkedin\"></i></a></li>\n  </ul>\n</div>",
+          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/200px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://cdn2.hubspot.net/hubfs/2869527/Imported_Blog_Media/Raminderpal_Singh_for_website.jpg?t=1525839744357\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Raminderpal Singh, PhD\n</h1>\n      <div class=\"profileCard__subTitle\">Strategic Advisor</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Former Vice-President at Eagle Genomics; VC at 3iGroup; Genomic Medicine Business Dev. &amp; Strategy Lead at IBM Research.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://uk.linkedin.com/in/raminderpalsingh123\"><i class=\"fa fa-linkedin\"></i></a></li>\n  </ul>\n</div>",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Merriweather);\n@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #fff;\n  padding-top: 100px;\n}\n\n.profileCard {\n  margin: 0 auto;\n  padding-bottom: 60px;\n  width: 350px;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  overflow: hidden;\n  background-color: #fff;\n  position: relative;\n}\n.profileCard__imageWrap {\n  background-size: cover;\n  height: 100px;\n  width: 100%;\n  position: relative;\n  transition: height .3s ease-in;\n  will-change: height;\n}\n.profileCard__imageWrap:before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: rgba(51, 51, 51, 0.25);\n  z-index: 1;\n}\n.profileCard__location {\n  color: #fff;\n  z-index: 20;\n  position: absolute;\n  top: 5px;\n  right: 5px;\n}\n.profileCard__header {\n  text-align: left;\n  padding-left: 140px;\n  position: absolute;\n  bottom: -28px;\n  left: 0;\n  color: #fff;\n  padding-left: 140px;\n  z-index: 20;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__title {\n  margin: 0;\n  color: #fff;\n  font-size: 1.125em;\n  font-weight: 400;\n  font-family: 'Oswald';\n  font-weight: 400;\n  z-index: 10;\n  position: relative;\n  padding-bottom: 6px;\n}\n.profileCard__subTitle {\n  color: #999;\n  font-size: 0.875em;\n  padding-top: 12px;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__thumbWrap {\n  width: 110px;\n  height: 110px;\n  background-color: #fff;\n  border-radius: 5px;\n  padding: 3px;\n  position: absolute;\n  bottom: -55px;\n  left: 15px;\n  border-radius: 110px;\n  z-index: 10;\n  transition: -webkit-transform .3s linear;\n  transition: transform .3s linear;\n  transition: transform .3s linear, -webkit-transform .3s linear;\n  will-change: transform;\n}\n.profileCard__thumb {\n  width: 104px;\n  height: 104px;\n  display: block;\n  border-radius: 84px;\n}\n.profileCard__contentWrap {\n  padding-bottom: 0px;\n  min-height: 50px;\n  position: relative;\n}\n.profileCard__contentWrap::after {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  z-index: 20;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 10px 10px 10px;\n  border-color: transparent transparent #ffffff transparent;\n  -webkit-transform: translateY(10px);\n          transform: translateY(10px);\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  margin-left: -10px;\n}\n.profileCard__content {\n  padding: 20px 20px 0;\n  text-align: left;\n  line-height: 1.3;\n  font-size: 1em;\n  font-family: sans-serif;\n  font-size: 0.875em;\n  color: #666;\n  max-height: 0;\n  overflow: hidden;\n  -webkit-transform: translateY(-10%);\n          transform: translateY(-10%);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n  will-change: transform, opacity;\n  opacity: 0;\n  visibility: hidden;\n}\n.profileCard__content p {\n  margin: 0;\n}\n.profileCard__social {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  display: table;\n  border-top: 1px solid #ccc;\n  padding: 10px 0;\n}\n.profileCard__socialItem {\n  display: table-cell;\n  text-align: center;\n}\n.profileCard__socialLink {\n  color: #999;\n}\n.profileCard:hover .profileCard__imageWrap {\n  height: 150px;\n}\n.profileCard:hover .profileCard__contentWrap:after {\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.profileCard:hover .profileCard__content {\n  max-height: 200px;\n  opacity: 1;\n  visibility: visible;\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n}\n.profileCard:hover .profileCard__thumbWrap {\n  -webkit-transform: translateY(-70%);\n          transform: translateY(-70%);\n}\n.profileCard:hover .profileCard__header {\n  -webkit-transform: translateY(-110%);\n          transform: translateY(-110%);\n}\n.profileCard:hover .profileCard__subTitle {\n  color: #fff;\n  -webkit-transform: translateY(-10px);\n          transform: translateY(-10px);\n}\n",
           "alias": "code-editor",
           "_tags": [
@@ -2686,7 +2688,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/200px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://www.hpc.cam.ac.uk/compbio/foto_nacho_ordenador_web_340px.jpg/@@images/7169e8d8-dca2-415d-ae5a-8e845eec2a43.jpeg\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Ignacio Medina</h1>\n      <div class=\"profileCard__subTitle\">Genomics Advisor</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Head of the Computational Biology Lab, HPC Service, University of Cambridge. Bioinformatics Software Architect, Genomics England.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://www.hpc.cam.ac.uk/compbio/contact\"><i class=\"fa fa-globe\"></i></a></li>\n  </ul>\n</div>",
+          "_customHTML": "\n<div class=\"profileCard\">\n  <div class=\"profileCard__imageWrap\" style=\"background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/200px-Flag_of_Spain.svg.png);\">\n    <div class=\"profileCard__location\"><i class=\"fa fa-map-pin\"></i></div>\n    <div class=\"profileCard__thumbWrap\"><img class=\"profileCard__thumb\" src=\"https://www.uv.es/recursos/fatwirepub/ccurl/173/863/Manuelweb.jpg\"></div>\n    <header class=\"profileCard__header\">\n      <h1 class=\"profileCard__title\">Manuel Perez, PhD</h1>\n      <div class=\"profileCard__subTitle\">Genomics Advisor</div>\n    </header>\n  </div>\n  <div class=\"profileCard__contentWrap\">\n    <div class=\"profileCard__content\"> \n      <p>Director Postgraduate program Clinical Genomics Valencia Univ.; Founder of Institute of Genomic Medicine; Editor-in-chief Medical Genomic News.</p>\n    </div>\n  </div>\n  <ul class=\"profileCard__social\">\n    <li class=\"profileCard__socialItem\"><a class=\"profileCard__socialLink\" href=\"https://www.linkedin.com/in/manuelperezalonso/\"><i class=\"fa fa-linkedin\"></i></a></li>\n  </ul>\n</div>",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Merriweather);\n@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #fff;\n  padding-top: 100px;\n}\n\n.profileCard {\n  margin: 0 auto;\n  padding-bottom: 60px;\n  width: 350px;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  overflow: hidden;\n  background-color: #fff;\n  position: relative;\n}\n.profileCard__imageWrap {\n  background-size: cover;\n  height: 100px;\n  width: 100%;\n  position: relative;\n  transition: height .3s ease-in;\n  will-change: height;\n}\n.profileCard__imageWrap:before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: rgba(51, 51, 51, 0.25);\n  z-index: 1;\n}\n.profileCard__location {\n  color: #fff;\n  z-index: 20;\n  position: absolute;\n  top: 5px;\n  right: 5px;\n}\n.profileCard__header {\n  text-align: left;\n  padding-left: 140px;\n  position: absolute;\n  bottom: -28px;\n  left: 0;\n  color: #fff;\n  padding-left: 140px;\n  z-index: 20;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__title {\n  margin: 0;\n  color: #fff;\n  font-size: 1.125em;\n  font-weight: 400;\n  font-family: 'Oswald';\n  font-weight: 400;\n  z-index: 10;\n  position: relative;\n  padding-bottom: 6px;\n}\n.profileCard__subTitle {\n  color: #999;\n  font-size: 0.875em;\n  padding-top: 12px;\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  will-change: transform;\n}\n.profileCard__thumbWrap {\n  width: 110px;\n  height: 110px;\n  background-color: #fff;\n  border-radius: 5px;\n  padding: 3px;\n  position: absolute;\n  bottom: -55px;\n  left: 15px;\n  border-radius: 110px;\n  z-index: 10;\n  transition: -webkit-transform .3s linear;\n  transition: transform .3s linear;\n  transition: transform .3s linear, -webkit-transform .3s linear;\n  will-change: transform;\n}\n.profileCard__thumb {\n  width: 104px;\n  height: 104px;\n  display: block;\n  border-radius: 84px;\n}\n.profileCard__contentWrap {\n  padding-bottom: 0px;\n  min-height: 50px;\n  position: relative;\n}\n.profileCard__contentWrap::after {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  z-index: 20;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 10px 10px 10px;\n  border-color: transparent transparent #ffffff transparent;\n  -webkit-transform: translateY(10px);\n          transform: translateY(10px);\n  transition: -webkit-transform .3s ease-in;\n  transition: transform .3s ease-in;\n  transition: transform .3s ease-in, -webkit-transform .3s ease-in;\n  margin-left: -10px;\n}\n.profileCard__content {\n  padding: 20px 20px 0;\n  text-align: left;\n  line-height: 1.3;\n  font-size: 1em;\n  font-family: sans-serif;\n  font-size: 0.875em;\n  color: #666;\n  max-height: 0;\n  overflow: hidden;\n  -webkit-transform: translateY(-10%);\n          transform: translateY(-10%);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n  will-change: transform, opacity;\n  opacity: 0;\n  visibility: hidden;\n}\n.profileCard__content p {\n  margin: 0;\n}\n.profileCard__social {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  display: table;\n  border-top: 1px solid #ccc;\n  padding: 10px 0;\n}\n.profileCard__socialItem {\n  display: table-cell;\n  text-align: center;\n}\n.profileCard__socialLink {\n  color: #999;\n}\n.profileCard:hover .profileCard__imageWrap {\n  height: 150px;\n}\n.profileCard:hover .profileCard__contentWrap:after {\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.profileCard:hover .profileCard__content {\n  max-height: 200px;\n  opacity: 1;\n  visibility: visible;\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n  transition: max-height .3s ease-in, opacity .3s ease-in;\n}\n.profileCard:hover .profileCard__thumbWrap {\n  -webkit-transform: translateY(-70%);\n          transform: translateY(-70%);\n}\n.profileCard:hover .profileCard__header {\n  -webkit-transform: translateY(-110%);\n          transform: translateY(-110%);\n}\n.profileCard:hover .profileCard__subTitle {\n  color: #fff;\n  -webkit-transform: translateY(-10px);\n          transform: translateY(-10px);\n}\n",
           "alias": "code-editor",
           "_tags": [
@@ -2972,7 +2974,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/microsoft-partner-logo-135x90.jpg",
+              "src": "@PROJECT_PATH@/assets/images/microsoft_partner_logo-135x90.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3019,7 +3021,7 @@
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apn-logo-color-324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
+              "src": "@PROJECT_PATH@/assets/images/apn-logo_color_324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3407,7 +3409,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/euunicorn-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/euunicorn-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3418,7 +3420,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/impactchallenge-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/impactchallenge-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3429,7 +3431,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/digitalheroes-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/digitalheroes-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3440,7 +3442,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/bestceo-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/bestceo-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3451,7 +3453,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/gamechangers-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/gamechangers-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -5096,380 +5098,29 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
-          "_params": {
-            "showTitle": false,
-            "showSubtitle": false,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showIcons": false,
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "columns": "4",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/screenqa-600x400.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "Gx QA",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/screenreports-600x418.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "Gx Reports",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/screenannotation-600x400.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "Gx Annotation",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/screenvariantsfilters-600x450.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "Gx Filtering",
-              "title": ""
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/woman-typing-writing-windows.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/coffee-apple-iphone-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title": "MOBIRISE FEATURES",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
-          "title1": "Quality Assurance",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Make sure your sequences meet your QA parameters.",
-          "title2": "Reporting",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Integrated reporting tools. Beyond single *omic or *ology, for true Precision Medicine.",
-          "title3": "Annotation",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Automatic or manual annotation and curation of variants.",
-          "title4": "Filtering",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Interactive and real time genomic variant filter.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "media1_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "extFeatures7",
-          "_anchor": "extFeatures7-7p"
+          "_name": "image1",
+          "_anchor": "image1-4u",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/genomics-1400x544.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": "Clinical Genomics solution"
         },
         {
           "_tags": [
@@ -5482,7 +5133,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><span style=\"font-size: 1.07rem;\">Kanteron works with current standards that lower barriers to translating genomic knowledge into clinical practice by</span></p><ul><li>Providing genetic integration of genomic and genetic data into EMR, HIS, and LIMS for on-site and external Laboratories following <a href=\"http://www.hl7.org/Special/committees/clingenomics/index.cfm\" target=\"_blank\">HL7</a>’s <a href=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=343\" target=\"_blank\">FHIR</a> Genomic specifications</li><li>Allowing real time navigation through genomic features representing different types of data over many types of genomic information</li><li>Importing data and NGS files (FASTQ, BAM, VCF, GFF, BED…), processing it, and visualizing the results, and generating reports in any browser</li><li>Facilitating variant curation and clinical annotation for historical review and creating an on-premise genomic knowledgebase</li><li>Integrating with with eCRF or CDM for Clinical Trials</li></ul>"
+          "text": "<p>If your current PACS-VNA-EHR system does not support Genomics, Kanteron Systems can supply your healthcare delivery organization with a module that includes:</p><p><br></p><p>A next-generation web-based 2D and 3D genome browser</p><ul><li>Real time navigation through chromosomes and karyotypes, representing different types of data over many types of genomic information</li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Data is rendered using SVG directly in the client side. No images are generated in the server and sent to the client (which means a faster server and more cacheable data)</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Numerous pre-configured tracks such as genes, transcripts, SNPs, mutations, miRNA targets, TFBS, etc.</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Written in Javascript, and makes use of open standards such as HTML5 or CSS3</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Zero-footprint: it runs in any modern web browsers without the installation of any Flash plug-in, Java Applet or anything else</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Very fast, smooth scrolling and dynamic response to user requests</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Use remote or local files, DAS servers or any other data via web service</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Import data and NGS files (BAM, VCF, GFF, BED…)</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">E</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">xport data in JSON format</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Select sequencing areas and zoom-in to visualize histograms</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Search genes, SNPs, variants, exomes and transcriptomes</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">One-click link to further curated info on a specific position</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Load and work with cellbase and DAS</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">History of visited positions</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Download raw (.bam) data to process in other bioinformatic tools</span></li></ul><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Report viewing and report generating module</span></p><ul><li>Integration with EHR (Electronic Medical Records) for Clinical Genomics</li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Integration with LIMS (Laboratory Information Management Systems) for on-site and external Laboratories</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Integration with eCRF o CDM for Clinical Trials</span></li></ul><p><br></p><p>Annotation</p><p>Collaboration</p>"
         },
         {
           "_inherit": "social-buttons2",
@@ -5847,11 +5498,12 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screenpgx-1400x933.jpg",
+              "src": "@PROJECT_PATH@/assets/images/pharmacogenomics-1400x544.png",
               "width": 1400,
               "link": "",
-              "alt": "Kanteron PGx",
-              "title": ""
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
@@ -5873,7 +5525,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>If your current PACS-VNA-EHR system does not support Pharmacogenomics, Kanteron Systems can supply your HDO with a module that:</p><p><br></p><ul><li>Incorporates sources of drug-gene interaction data that were previously only available in inaccessible formats (e.g. tables in a PDF document), implementing the major Pharmacogenomic databases (like <a href=\"https://www.pharmgkb.org/\" target=\"_blank\">PharmGKB</a>, <a href=\"https://www.cancergenomeinterpreter.org/home\" target=\"_blank\">CGI</a>, <a href=\"http://www.dgidb.org/\" target=\"_blank\">DGIdb</a>, <a href=\"https://www.opentargets.org/\" target=\"_blank\">OpenTargets</a>...)</li><li>Allows the user to refine their query to certain gene families, types of interactions, classes of drugs, etc.</li><li>Provide modules to add into the EMR (Electronic Medical Record) the integration of known drug-gene interactions and potentially druggable gene data with the patient's genetic background to improve clinical care</li><li>Supports different warning levels in the EHR for drug/genomic-variants interactions </li><li>Helps to add and curate your own data, and annotate genes of interest with respect to known drug-gene interactions and potential druggability</li></ul>"
+          "text": "<p>If your current PACS-VNA-EHR system does not support Pharmacogenomics, Kanteron Systems can supply your HDO with a module that:</p><p><br></p><ul><li>Helps you annotate genes of interest with respect to known drug-gene interactions and potential <a href=\"http://www.fda.gov/drugs/scienceresearch/researchareas/pharmacogenetics/ucm083378.htm\" target=\"_blank\">druggability</a></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Use official HUGO gene symbols as reported by Entrez Gene, alongside a gene name grouping strategy that attempts to aggregate synonyms for each gene with additional names from each data source of known synonyms (Ensembl Ids, Uniprot Ids, etc.)</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Add your own data</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">‘Source Trust Level’: each source is assigned one of two trust levels: ‘Expert curated’ or ‘Non-curated’. ‘Expert curated’ sources were examined manually by domain experts. ‘Non-curated’ sources were imported in an automatic fashion from the primary source using an importer module (i.e. a script). Within each of the two trust levels we further rank each source according to an additional assessment of quality. Results will be sorted to favor ‘Expert curated’ data and by quality rank within those sources</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">‘Gene Categories’: a set of genes belonging to a group that is deemed to be potentially druggable</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">‘Interaction Type’ describes the nature of the association between a particular gene and drug (‘inhibitor’, ‘resistance’, ‘sensitivity’…)</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Integrates both known drug-gene interactions and potentially druggable gene data</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Allows the user to refine their query to certain gene families, types of interactions, classes of drugs, etc.</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Incorporates sources of drug-gene interaction data that were previously only available in inaccessible formats (e.g. tables in a PDF document)</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">S</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">earch for drug-gene interactions of genes that have direct gene-gene interactions with the current gene</span></li></ul><p><br></p>"
         },
         {
           "_inherit": "social-buttons2",
@@ -6601,7 +6253,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/monticello-health-services-logo-395x120.jpg",
+              "src": "@PROJECT_PATH@/assets/images/monticello_health_services_logo-395x120.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
