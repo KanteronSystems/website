@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "index.html",
+    "currentPage": "team.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -474,8 +474,9 @@
               "width": 600,
               "active": true,
               "link": "radiology.html",
-              "alt": "VNA PACS RIS Radiology",
-              "title": ""
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "title1": "VNA <br>RADIOLOGY",
@@ -489,8 +490,9 @@
               "width": 600,
               "active": true,
               "link": "pathology.html",
-              "alt": "Digital Pathology",
-              "title": ""
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "title2": "DIGITAL PATHOLOGY",
@@ -504,8 +506,9 @@
               "width": 600,
               "active": true,
               "link": "genomics.html",
-              "alt": "Genomics",
-              "title": ""
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "title3": "CLINICAL GENOMICS",
@@ -519,8 +522,9 @@
               "width": 600,
               "active": true,
               "link": "pharmacogenomics.html",
-              "alt": "Pharmacogenomics",
-              "title": ""
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "title4": "PHARMACO-GENOMICS",
@@ -533,10 +537,10 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "othermodules.html",
-              "alt": "Analytics",
+              "link": "",
+              "alt": "",
               "title": "",
-              "linkInNewWindow": true
+              "linkInNewWindow": false
             }
           },
           "title5": "BIG DATA ANALYTICS",
@@ -549,8 +553,8 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "othermodules.html",
-              "alt": "Collaboration",
+              "link": "",
+              "alt": "",
               "title": "",
               "linkInNewWindow": false
             }
@@ -592,8 +596,9 @@
                   "width": 160,
                   "active": true,
                   "link": "testimonials.html",
-                  "alt": "Mike Denis",
-                  "title": ""
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
               "authorName": "Mike Denis",
@@ -609,8 +614,9 @@
                   "width": 160,
                   "active": true,
                   "link": "testimonials.html",
-                  "alt": "Dr. Colen",
-                  "title": ""
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
               "authorName": "Rivka Colen, MD",
@@ -626,8 +632,9 @@
                   "width": 160,
                   "active": true,
                   "link": "testimonials.html",
-                  "alt": "Mark Large",
-                  "title": ""
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
               "authorName": "Mark Large",
@@ -643,8 +650,9 @@
                   "width": 160,
                   "active": true,
                   "link": "testimonials.html",
-                  "alt": "S Murphy",
-                  "title": ""
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
               "authorName": "Sean Murphy",
@@ -660,8 +668,9 @@
                   "width": 160,
                   "active": true,
                   "link": "testimonials.html",
-                  "alt": "Dr. Ole Pleß",
-                  "title": ""
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
               "authorName": "Dr. Ole Pleß",
@@ -677,8 +686,9 @@
                   "width": 160,
                   "active": true,
                   "link": "testimonials.html",
-                  "alt": "Dr. Cecil Lynch",
-                  "title": ""
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
               "authorName": "Cecil O. Lynch, MD, MS",
