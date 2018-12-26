@@ -749,7 +749,12 @@ h6,
   background-color: #ffffff;
   border-color: #ffffff;
 }
-#features6-o P {
+#header3-8n .mbr-section-title,
+#header3-8n .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-8m .mbr-section-title,
+#header3-8m .mbr-section-subtitle {
   text-align: center;
 }
 #social-buttons4-h .mbr-section-title,
