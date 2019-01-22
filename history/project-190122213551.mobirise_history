@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "index.html",
+    "currentPage": "genomics.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -34,6 +34,8 @@
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
     "cookiesAlert": "Notice:\r\nThis website or its third-party tools use cookies, which are necessary to its functioning and required to achieve the purposes illustrated in the cookie policy. If you want to know more or withdraw your consent to all or some of the cookies, please refer to our <a href='policy.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.\r\nBy closing this banner, scrolling this page, clicking a link or continuing to browse otherwise, you agree to the use of cookies.",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "gdpr": "Notice:\r\nThis website or its third-party tools use cookies, which are necessary to its functioning and required to achieve the purposes illustrated in the cookie policy. If you want to know more or withdraw your consent to all or some of the cookies, please refer to our <a href='policy.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.\r\nBy closing this banner, scrolling this page, clicking a link or continuing to browse otherwise, you agree to the use of cookies.",
     "siteUrl": "undefined",
     "siteFonts": []
@@ -62,7 +64,7 @@
             "paddingTop": "4",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1474x1080.jpg",
+            "bgImage": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/mbr-1474x1080.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -174,7 +176,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -297,7 +299,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/euunicorn-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/euunicorn-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -308,7 +310,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/impactchallenge-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/impactchallenge-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -319,7 +321,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/digitalheroes-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/digitalheroes-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -330,7 +332,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/bestceo-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/bestceo-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -353,7 +355,7 @@
           },
           "media6": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/fs-award-small-150x98.png",
+              "src": "@PROJECT_PATH@/assets/images/fs%20award%20small-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -856,7 +858,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/microsoft-partner-logo-135x90.jpg",
+              "src": "@PROJECT_PATH@/assets/images/microsoft_partner_logo-135x90.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -891,7 +893,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apn-logo-color-324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
+              "src": "@PROJECT_PATH@/assets/images/apn-logo_color_324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -988,7 +990,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/hms-logo-600x151.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/hms_logo-600x151.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -999,7 +1001,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cambridge-hpc-computational-biology-288x61.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/cambridge%20hpc%20computational%20biology-288x61.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1010,7 +1012,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ctsi-600x65.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/ctsi-600x65.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1021,7 +1023,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ohif-203x42.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/ohif-203x42.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1032,7 +1034,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apn-logo-color-324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
+              "src": "@PROJECT_PATH@/assets/images/apn-logo_color_324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1435,7 +1437,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -1807,7 +1809,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -2637,7 +2639,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -2991,7 +2993,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -3037,7 +3039,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apn-logo-color-324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
+              "src": "@PROJECT_PATH@/assets/images/apn-logo_color_324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3053,7 +3055,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/microsoft-partner-logo-135x90.jpg",
+              "src": "@PROJECT_PATH@/assets/images/microsoft_partner_logo-135x90.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3101,7 +3103,7 @@
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apn-logo-color-324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
+              "src": "@PROJECT_PATH@/assets/images/apn-logo_color_324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3170,7 +3172,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/hms-logo-600x151.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/hms_logo-600x151.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3181,7 +3183,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cambridge-hpc-computational-biology-288x61.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/cambridge%20hpc%20computational%20biology-288x61.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3192,7 +3194,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ctsi-600x65.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/ctsi-600x65.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3203,7 +3205,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ohif-203x42.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/ohif-203x42.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3214,7 +3216,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apn-logo-color-324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
+              "src": "@PROJECT_PATH@/assets/images/apn-logo_color_324x89.bf1425dd614dd4d3a8fabc983adcc40144cac14d-325x90.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3575,7 +3577,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -3623,7 +3625,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/euunicorn-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/euunicorn-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3634,7 +3636,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/impactchallenge-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/impactchallenge-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3645,7 +3647,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/digitalheroes-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/digitalheroes-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3656,7 +3658,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/bestceo-150x98.png",
+              "src": "file:///Users/jorge/Documents/GitHub/sitioweb//assets/images/bestceo-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3679,7 +3681,7 @@
           },
           "media6": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/fs-award-small-150x98.png",
+              "src": "@PROJECT_PATH@/assets/images/fs%20award%20small-150x98.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -4067,7 +4069,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -4387,7 +4389,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -4779,7 +4781,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -5171,7 +5173,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -5914,7 +5916,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -6305,7 +6307,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -6765,7 +6767,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -6818,7 +6820,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/monticello-health-services-logo-395x120.jpg",
+              "src": "@PROJECT_PATH@/assets/images/monticello_health_services_logo-395x120.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -7173,7 +7175,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -7426,7 +7428,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -7758,7 +7760,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -8083,7 +8085,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br>for Precision Medicine<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.kanteron.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KANTERON SYSTEMS<br>Computational Bioinformatics<br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.kanteron.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"platform.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\"></span>PLATFORM</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"platform.html\">Kanteron Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"radiology.html\">Radiology PACS-RIS-VNA</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pathology.html\">Digital Pathology</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"genomics.html\">Clinical Genomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pharmacogenomics.html\">Pharmacogenomics</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"othermodules.html\">Other Modules</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"company.html\" aria-expanded=\"false\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>COMPANY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">About Kanteron</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"team.html\">Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"awardsandmedia.html\">Awards &amp; Media</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"partnersandquality.html\">Partners &amp; Quality</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://blog.kanteron.com\" target=\"_blank\">News &amp; Blog</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"references.html\" aria-expanded=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"refsites.html\">Sites</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"testimonials.html\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cases.html\">Publications</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://web.kanteron.com/\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>ESPAÑOL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "_anchor": "menu-7h"
         },
