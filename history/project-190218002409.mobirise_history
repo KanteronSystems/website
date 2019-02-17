@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "contact.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -4138,7 +4138,7 @@
             "bgColor": "#fff"
           },
           "text1": "<h3><b>MIDDLE EAST:</b></h3><div><b>SAUDI ARABIA, Kuwait, Qatar, United Arab Emirates, Oman, Bahrain, Egypt, Jordan and Turkey:&nbsp;</b></div><div><i>Micro Technology Company (MTC)</i></div><div>PO Box 85407</div><div>Riyadh 11691, Saudi Arabia</div>",
-          "text2": "<h3>ASIA:</h3><div><b>THAILAND - BANGKOK:&nbsp;</b></div><div><i><a href=\"http://www.bjhmedical.com/\" target=\"_blank\">BJC Healthcare Co., Ltd.</a></i></div><div>Berli Jucker House<br>99 Soi Rubia, Sukhumvit 42 Road, <br>Kwaeng Phrakanong, Khet Klongtoey, Bangkok 10110, Thailand</div><div>Tel :  (66)0 – 2367-1111&nbsp;</div><div><b><br></b></div><div><b>VIETNAM - HANOI</b>:&nbsp;</div><div><i>Viet Nam Interntional Healthcare Initiatives JSC (VNHI)</i></div><div>36 Phung Khac Khoan St., Ngo Thi Nham Ward, Hai Ba Trung District, Hanoi (Vietnam)</div>",
+          "text2": "<h3>ASIA:</h3><div><b>THAILAND - BANGKOK:&nbsp;</b></div><div><i><a href=\"http://www.bjhmedical.com/\" target=\"_blank\">BJC Healthcare Co., Ltd.</a></i></div><div>อาคารเบอร์ลี่ ยุคเกอร์ ชั้น 8, 99 ซอยรูเบียถนนสุขุมวิท 42 แขวงพระโขนง เขตคลองเตยกรุงเทพฯ 10110, Bangkok, Tailandia</div><div>Tel: 02-367-1111</div><div><b><br></b></div><div><b>VIETNAM - HANOI</b>:&nbsp;</div><div><i>Viet Nam Interntional Healthcare Initiatives JSC (VNHI)</i></div><div>36 Phung Khac Khoan St., Ngo Thi Nham Ward, Hai Ba Trung District, Hanoi (Vietnam)</div>",
           "text3": "<h3>OCEANIA:</h3><div><b>AUSTRALIA – SIDNEY</b>:&nbsp;</div><div><i>Kanteron Systems</i></div><div>Longueville, NSW 2066</div><div>Tel: (+61) 413481686</div><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
