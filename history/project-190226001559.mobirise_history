@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "cases.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -28,8 +28,8 @@
     "noImageResize": "",
     "globalfooter": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 315,
-    "versionPublish": "4.9.3",
+    "uniqCompNum": 313,
+    "versionPublish": "4.9.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-51273041-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
@@ -4123,7 +4123,7 @@
             "bgColor": "#fff"
           },
           "text1": "<h3><b>EUROPE:</b></h3><p><b style=\"font-size: 1.07rem;\">SPAIN – HEADQUARTERS</b><span style=\"font-size: 1.07rem;\">:</span><b style=\"font-size: 1.07rem;\"> <br><i>KANTERON SYSTEMS S.L.U.</i></b><br></p><p>Catedratico Agustin Escardino 9<br>University of Valencia Science Park<br>46980 Paterna (Valencia)</p><p>Tel: (+34) 963312287</p><p><br></p><p><b>Madrid</b>:</p><p>C/ Almirante, 5 – 3° izda</p><p>28004 Madrid</p>",
-          "text2": "<h3><b>SOUTH AMERICA</b>:</h3><p><b>BRAZIL – SAO PAULO:&nbsp;</b></p><p><i>Kanteron Systems</i><br></p><p>Sao Paulo, SP - 05642-020</p><p>Tel: (+55) 11 3565 0881</p><p><b><br></b></p><p><b>CHILE – SANTIAGO</b>: <br><a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>: <br><i>Kanteron Systems</i></p><p>Bogota&nbsp;<br></p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <br><a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asuncion</p><p>Tel.: +595 21 248 7000</p><p><br></p><p><b>PERU – LIMA</b>: <br><a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
+          "text2": "<h3><b>SOUTHAMERICA</b>:</h3><p><b>BRAZIL – SAO PAULO:&nbsp;</b></p><p><i><a href=\"http://konimagem.com.br/\" target=\"_blank\">Konimagem Comercial Ltda.</a></i></p><p>R. Maria Casali Bueno, 57 - Mandaqui, São Paulo - SP, 02408-050, Brazil</p><p><br></p><p><i>Kanteron Systems</i></p><p>Sao Paulo, SP - 05642-020</p><p>Tel: (+55) 11 3565 0881</p><p><b><br></b></p><p><b>CHILE – SANTIAGO</b>: <br><a href=\"http://nexomed.cl/\" target=\"_blank\">NexoMed S.p.A.</a></p><p>Santa Magdalena 75 – Of. 810</p><p>Providencia – Santiago</p><p>Tel: +562 23346837</p><p><br></p><p><b>COLOMBIA – BOGOTA</b>: <br><i>Kanteron Systems</i></p><p>Bogota&nbsp;<br></p><p>Tel: (+57) 300 6304207</p><p><br></p><p><b>PARAGUAY – ASUNCION</b>: <br><a href=\"http://www.comtel.com.py/\" target=\"_blank\">Comtel</a></p><p>Vicepresidente Sánchez 731 c/ Herrera, Asuncion</p><p>Tel.: +595 21 248 7000</p><p><br></p><p><b>PERU – LIMA</b>: <br><a href=\"http://soluzioniinternational.com/\" target=\"_blank\">Soluzioni International</a></p><p>Calle Ernesto Plasencia 113 – San Isidro, Lima&nbsp;</p><p>Tel.: (0051 1) 4834633</p>",
           "text3": "<h3>NORTHAMERICA:</h3><div><b>USA – INDIANA</b>:&nbsp;</div><div><i>Kanteron Systems USA, Inc.</i></div><div>Indianapolis, IN 46176</div><div>Tel: (+1) 773-358-2292&nbsp;</div><div><br></div><div><b>MEXICO - DF</b>:&nbsp;</div><div><a href=\"http://reliable.com.mx/\" target=\"_blank\">Reliable S.A. de C.V.</a></div><div>Parque de los Remedios No. 14</div><div>Col. El Parque CP. 53398,</div><div>Naucalpan, Edo. De Mex.</div><div>Tel: 01-55-53587001</div><p><br></p>",
           "_styles": {
             "P": {
@@ -4138,7 +4138,7 @@
             "bgColor": "#fff"
           },
           "text1": "<h3><b>MIDDLE EAST:</b></h3><div><b>SAUDI ARABIA, Kuwait, Qatar, United Arab Emirates, Oman, Bahrain, Egypt, Jordan and Turkey:&nbsp;</b></div><div><i>Micro Technology Company (MTC)</i></div><div>PO Box 85407</div><div>Riyadh 11691, Saudi Arabia</div>",
-          "text2": "<h3>ASIA:</h3><div><b>THAILAND - BANGKOK:&nbsp;</b></div><div><i><a href=\"http://www.bjhmedical.com/\" target=\"_blank\">BJC Healthcare Co., Ltd.</a></i></div><div>Berli Jucker House<br>99 Soi Rubia, Sukhumvit 42 Road, <br>Kwaeng Phrakanong, Khet Klongtoey, Bangkok 10110</div><div>Tel :  (66)0 – 2367-1111&nbsp;</div><div><b><br></b></div><div><b>VIETNAM - HANOI</b>:&nbsp;</div><div><i>Viet Nam Interntional Healthcare Initiatives JSC (VNHI)</i></div><div>36 Phung Khac Khoan St., Ngo Thi Nham Ward, Hai Ba Trung District, Hanoi</div>",
+          "text2": "<h3>ASIA:</h3><div><b>THAILAND - BANGKOK:&nbsp;</b></div><div><i><a href=\"http://www.bjhmedical.com/\" target=\"_blank\">BJC Healthcare Co., Ltd.</a></i></div><div>Berli Jucker House<br>99 Soi Rubia, Sukhumvit 42 Road, <br>Kwaeng Phrakanong, Khet Klongtoey, Bangkok 10110, Thailand</div><div>Tel :  (66)0 – 2367-1111&nbsp;</div><div><b><br></b></div><div><b>VIETNAM - HANOI</b>:&nbsp;</div><div><i>Viet Nam Interntional Healthcare Initiatives JSC (VNHI)</i></div><div>36 Phung Khac Khoan St., Ngo Thi Nham Ward, Hai Ba Trung District, Hanoi (Vietnam)</div>",
           "text3": "<h3>OCEANIA:</h3><div><b>AUSTRALIA – SIDNEY</b>:&nbsp;</div><div><i>Kanteron Systems</i></div><div>Longueville, NSW 2066</div><div>Tel: (+61) 413481686</div><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
@@ -7234,24 +7234,6 @@
           ],
           "_name": "pro.custom-html",
           "_anchor": "custom-html-70"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-8q",
-          "_customHTML": "<iframe src=\"http://static.issuu.com/widgets/shelf/index.html?folderId=640bf38c-8da2-4d23-aa3f-f5754b1df079&amp;theme=theme3&amp;rows=3&amp;thumbSize=small&amp;roundedCorners=false&amp;showTitle=true&amp;showAuthor=true&amp;shadow=true&amp;effect3d=true\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" width=\"100%\" height=\"400\"></iframe>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "",
-          "_customTemplate": true
         },
         {
           "_inherit": "social-buttons2",
