@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kanteron web",
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -45,8 +45,8 @@
       "settings": {
         "main": true,
         "title": "Kanteron Systems",
-        "meta_descr": "Website of Kanteron Systems: Precision Medicine, Medical Imaging, Digital Pathology, Genomics, Pharmacogenomics, PACS, VNA, ZFP, MMWL, Gx, PGx",
-        "header_custom": "<script>\n!function(p,r,i,v,a,c,y){p.Metomic={apiKey:i};p[i]||(p[i]=function(){\n(p[i].q=p[i].q||[]).push(arguments)});p[i].l=+new Date;c=r.createElement(v);\ny=r.getElementsByTagName(v)[0];p.Metomic.script=c;c.src=a;y.parentNode.insertBefore(c,y)}\n(window,document,'prj:09d86c9d-e051-44f8-9eab-eb46451256d7','script','https://consent-manager.metomic.io/embed.js');\n</script>",
+        "meta_descr": "Website of Kanteron Systems",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": "",
         "order": 1
@@ -203,7 +203,7 @@
                 "showTitle": true,
                 "title": "PATIENT-CENTRIC",
                 "showText": true,
-                "text": "Collaboration: Molecular Tumor Boards, Multidisciplinary Teams, Telemedicine...",
+                "text": "Collaboration: Multidisciplinary Teams (MDT), Telemedicine...",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>",
                 "overlayOpacity": "0.3"
@@ -650,7 +650,7 @@
             }
           },
           "title6": "TELEMEDICINE COLLABORATION",
-          "subtitle6": "MDT, Tumor Boards",
+          "subtitle6": "Care Coordination",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
